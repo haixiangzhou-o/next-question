@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:22.368220+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第七章-single-1",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争胜利后，国民党坚持的方针是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.独裁、内战",
+        "B.民主、和平",
+        "C.与中共坦诚合作",
+        "D.建立联合政府"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第七章-single-2",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "重庆谈判期间，中共中央正式确定的战略方针是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“让开大路，占领两厢”",
+        "B.“向南发展，向北防御”",
+        "C.“争取和平民主”",
+        "D.“向北发展，向南防御”"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-3",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共中央在《对目前时局的宣言》中，指出的新历史时期全民族面临的重大任务不包括（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.巩固国内团结，保证国内和平",
+        "B.实现民主，改善民生",
+        "C.在和平民主团结的基础上，实现全国的统一",
+        "D.“向北发展，向南防御”"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-4",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "标志和谈之门被国民党全部关闭、国共关系彻底破裂的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.校场口惨案",
+        "B.下关惨案",
+        "C.国民党大举围攻中原解放区",
+        "D.国民党逐出中共驻南京、上海、重庆三地代表及工作人员"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-5",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1946年6月，国民党当局制造的镇压上海人民团体联合会请愿团的惨案是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.二七惨案",
+        "B.校场口惨案",
+        "C.下关惨案",
+        "D.确山惨案"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-6",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1946年6月至1947年6月，人民军队处于（ ）阶段。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.战略进攻",
+        "B.战略相持",
+        "C.战略决战",
+        "D.战略防御"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-7",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "开创人民军队攻占大城市先例的是晋察冀野战军攻占（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.济南",
+        "B.石家庄",
+        "C.南京",
+        "D.北平"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第七章-single-8",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1947年6月，晋冀鲁豫野战军千里跃进大别山，揭开了人民解放战争（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.战略防御的序幕",
+        "B.战略转移的序幕",
+        "C.战略进攻的序幕",
+        "D.战略决战的序幕"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-9",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1948年4月，毛泽东完整提出新民主主义革命总路线的著作是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《新民主主义论》",
+        "B.《目前形势和我们的任务》",
+        "C.《在晋绥干部会议上的讲话》",
+        "D.《将革命进行到底》"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-10",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1947年在国统区爆发的大规模的爱国学生运动是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.一二·九运动",
+        "B.一二·一运动",
+        "C.一二·三O运动",
+        "D.五二O运动"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-11",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1946年，北平学生举行的抗议驻华美军暴行的运动是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.一二·九运动",
+        "B.一二·一运动",
+        "C.一二·三O运动",
+        "D.五二O运动"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-12",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1947年10月，被国民党当局宣布为“非法团体”并勒令取缔的民主党派是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国农工民主党",
+        "B.中国民主同盟",
+        "C.中国民主促进会",
+        "D.中国国民党革命委员会"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第七章-single-13",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "下列不属于1948年9月至1949年1月中国人民解放军发动的重大战役的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.辽沈战役",
+        "B.渡江战役",
+        "C.淮海战役",
+        "D.平津战役"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第七章-single-14",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1945年8月，中共中央在《对目前时局的宣言》中明确提出的口号是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.和平、民主、团结",
+        "B.向北发展，向南防御",
+        "C.打倒蒋介石，解放全中国",
+        "D.打过长江去，解放全中国"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第七章-single-15",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1945年8月至10月，国共双方举行的谈判是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.西安谈判",
+        "B.重庆谈判",
+        "C.南京谈判",
+        "D.北平谈判"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第七章-single-16",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1946年2月，国民党特务破坏“庆祝政协成功大会”所制造的惨案是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.五卅惨案",
+        "B.确山惨案",
+        "C.校场口惨案",
+        "D.下关惨案"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-17",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1946年6月，国民党军队挑起全面内战的起点是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.大举围攻中原解放区",
+        "B.大举围攻东北解放区",
+        "C.重点进攻陕甘宁边区",
+        "D.重点进攻山东解放区"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第七章-single-18",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1947年10月10日，《中国人民解放军宣言》正式提出的口号是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.和平、民主、团结",
+        "B.向北发展、向南防御",
+        "C.打倒蒋介石，解放全中国",
+        "D.将革命进行到底"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-19",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "台湾人民为反抗国民党当局暴政而举行“二二八”起义的时间是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1945年",
+        "B.1946年",
+        "C.1947年",
+        "D.1948年"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第七章-single-20",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1948年9月，中国人民解放军发起战略决战的第一个战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.辽沈战役",
+        "B.淮海战役",
+        "C.平津战役",
+        "D.渡江战役"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第七章-single-21",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1949年3月，中国共产党在河北省平山县西柏坡召开的重要会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共六大",
+        "B.中共六届六中全会",
+        "C.中共七大",
+        "D.中共七届二中全会"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-single-22",
+      "type": "single",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1949年4月21日，中国人民解放军发起的重大战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.辽沈战役",
+        "B.淮海战役",
+        "C.平津战役",
+        "D.渡江战役"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第七章-short_answer-1",
+      "type": "short_answer",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争胜利后的国际格局。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、帝国主义势力受到削弱，人民民主力量明显增长；\n2、逐步打破了以维持欧洲大国均势为中心的传统的国际政治格局，形成了美苏两极的政治格局；\n3、美国拟订了所谓“全球战略计划”，在遏制苏联的旗号下向全球扩张，并把夺取中国以巩固其在亚洲的地位作为重要战略部署。"
+    },
+    {
+      "id": "15043-第七章-short_answer-2",
+      "type": "short_answer",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新民主主义革命的总路线和三大经济纲领。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、新民主主义革命的总路线：无产阶级领导的，人民大众的，反对帝国主义、封建主义和官僚资本主义的革命。\n2、三大经济纲领：没收封建阶级的土地归农民所有，没收蒋介石、宋子文、孔祥熙、陈立夫为首的垄断资本归新民主主义的国家所有，保护民族工商业。"
+    },
+    {
+      "id": "15043-第七章-short_answer-3",
+      "type": "short_answer",
+      "chapter": "第七章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国新民主主义革命取得胜利的主要原因。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、中国工人阶级的先锋队——中国共产党的领导。它以马克思列宁主义基本原理与中国实际相结合的毛泽东思想作为一切工作的指针，制定出符合中国国情和人民利益的纲领、路线、方针和政策；它最有远见，最富于牺牲精神，最坚定，从而赢得了中国人民的衷心拥护。\n2、人民群众和各界人士的广泛参加和大力支持。工人、农民、城市小资产阶级群众是民主革命的主要力量；随着斗争的发展，民族资产阶级也逐步向共产党靠拢。\n3、国际无产阶级和人民群众的支持。"
+    }
+  ]
+}

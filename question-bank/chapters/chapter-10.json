@@ -1,0 +1,671 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:22.929251+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第十章-single-1",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大精神归结为一点，就是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.实现祖国统一",
+        "B.坚持改革开放",
+        "C.建设和谐社会",
+        "D.坚持和发展中国特色社会主义"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-2",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2013年3月，习近平在十二届全国人大一次会议上进一步强调，实现中华民族伟大复兴的中国梦，就是要实现国家富强、民族振兴、人民幸福。下列关于会议上提出的实现中国梦的相关表述，错误的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.实现中国梦必须走中国道路",
+        "B.实现中国梦必须弘扬中国精神",
+        "C.实现中国梦必须凝聚中国力量",
+        "D.实现中国梦必须依赖外国支持"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-3",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "习近平明确提出实现全面建成小康社会目标是实现中华民族伟大复兴中国梦的关键一步是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.十八大上",
+        "B.十九大上",
+        "C.十二届人大一次会议上",
+        "D.参观“复兴之路”展览时"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-4",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大后，中国经济发展进入了新常态。下列不属于新常态表现的是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.从内向型走向外向型",
+        "B.经济结构不断优化升级",
+        "C.从要素驱动、投资驱动转向创新驱动",
+        "D.从高速增长转为中高速增长"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-5",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大后，中央为适应和引领经济发展新常态，实施的重大创新政策是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.改善民生",
+        "B.发展中国特色社会主义文化",
+        "C.加强城乡社会保障体系建设",
+        "D.推进供给侧结构性改革"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-6",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国发展社会主义民主政治的具体内容不包括（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.毫不动摇坚持人民代表大会制度",
+        "B.坚持和完善民族区域自治制度",
+        "C.坚持和完善基层群众自治制度",
+        "D.强化公民环境意识"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-7",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "为在发展中保障和改善民生，中共中央提出一切工作的出发点和落脚点是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.促进社会公平正义",
+        "B.增进人民福祉、促进人的全面发展",
+        "C.坚持全覆盖、保基本、多层次、可持续发展",
+        "D.加快推进健康中国建设"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-8",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共中央为建设美丽中国而实施的一系列政策不包括（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.多渠道创造就业机会",
+        "B.贯彻新发展理念，坚持节约优先、保护优先、自然恢复为主的方针",
+        "C.完善生态文明制度体系，用最严格的制度、最严密的法治保护生态环境",
+        "D.积极参与国际合作"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-9",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "塞罕坝精神指的是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.自力更生、艰苦奋斗、可持续发展",
+        "B.牢记使命、艰苦创业、绿色发展",
+        "C.自立自强、勇敢无畏、造福人民",
+        "D.自强不息、尊崇自然、敬畏生命"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-10",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大后，党中央从坚持和发展中国特色社会主义全局出发，提出并形成了“四个全面”的战略布局，即全面建成小康社会、全面深化改革、全面依法治国和（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.全面提高生产力",
+        "B.全面提高人民素质",
+        "C.全面从严治党",
+        "D.全面改善民生"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第十章-single-11",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "《中共中央关于全面推进依法治国若干重大问题的决定》提出，全面推进依法治国的总目标是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.建设中国特色社会主义法治体系，建设社会主义法治国家",
+        "B.坚持党的领导，全面建成小康社会",
+        "C.加快推进健康中国建设",
+        "D.加快和创新社会治理，完善中国特色社会主义社会治理体系"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-12",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2013年11月，中共十八届三中全会审议通过《中共中央关于全面深化改革若干重大问题的决定》，勾画了到2020年全面深化改革的时间表、路线图。全会强调，全面深化改革的总目标是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.完善和发展中国特色社会主义制度，推进国家治理体系和治理能力现代化",
+        "B.坚持社会主义市场经济改革方向，以促进社会公平正义、增进人民福祉C.进一步解放思想、解放和发展社会生产力、解放和增强社会活力",
+        "D.让发展成果更多惠及全体人民"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-13",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2017年3月，十二届全国人大五次会议通过（  ），为编纂好民法典奠定了坚实的基础。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《中华人民共和国民法通则》",
+        "B.《中华人民共和国民法总则》",
+        "C.《中华人民共和国民法原则》",
+        "D.《中华人民共和国民法规则》"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-14",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国国家宪法日是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.11月6日",
+        "B.12月4日",
+        "C.7月21日",
+        "D.8月11日"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-15",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2015年11月，中共中央召开扶贫开发工作会议，提出坚持（ ），坚决打赢脱贫攻坚战。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.精准扶贫、精准脱贫",
+        "B.努力扶贫、努力脱贫",
+        "C.积极扶贫、积极脱贫",
+        "D.全面扶贫、全面脱贫"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-16",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大后党和国家事业之所以取得历史性成就、发生历史性变革，最根本、最重要的在于。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.时代提供机遇",
+        "B.全国人民的共同努力",
+        "C.世界人民的支持",
+        "D.有习近平新时代中国特色社会主义思想的科学指引，有以习近平同志为核心的党中央的坚强领导"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-17",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在全面建成小康社会决胜阶段、中国特色社会主义进入新时代关键时期召开的一次十分重要的大会是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共十六大",
+        "B.中共十九大",
+        "C.中共十八大",
+        "D.中共十五大"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-18",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "党的十九大的一个重大历史贡献是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.明确社会主义初级阶段基本路线",
+        "B.制定可持续发展观",
+        "C.贯彻实行“三个代表”重要思想",
+        "D.把习近平新时代中国特色社会主义思想确立为党的行动指南"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-19",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "习近平强调，要结合时代特点大力弘扬“红船精神”。下列不属于这一精神内容的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.坚定理想、百折不挠的奋斗精神",
+        "B.立党为公、忠诚为民的奉献精神",
+        "C.忠诚职守、精益求精的敬业精神",
+        "D.开天辟地、敢为人先的首创精神"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第十章-single-20",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "决定当代中国命运的关键抉择，实现中华民族伟大复兴的关键一招是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.从严治党",
+        "B.改革开放",
+        "C.依法治国",
+        "D.科技创新"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-21",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "改革开放40年来，对外开放取得新突破，形成（ ）的对外开放格局。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.全方位、多层次、宽领域",
+        "B.“五位一体”",
+        "C.全方位、多层次、立体化",
+        "D.“四个全面”"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-22",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第一个以中国城市命名的国际组织是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.上海合作组织",
+        "B.世界贸易组织",
+        "C.亚太经合组织",
+        "D.深圳合作组织"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第十章-single-23",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国特色社会主义伟大实践的根本保障是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国特色社会主义道路",
+        "B.中国特色社会主义制度",
+        "C.中国特色社会主义文化",
+        "D.中国特色社会主义理论体系"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-24",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "党和人民历尽千辛万苦、付出巨大代价取得的根本成就是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国特色社会主义道路",
+        "B.中国特色社会主义理论体系",
+        "C.中国特色社会主义制度",
+        "D.中国特色社会主义"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-25",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十八大提出，我国到2020年的奋斗目标是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.实现“四个现代化”",
+        "B.基本实现现代化",
+        "C.全面建设小康社会",
+        "D.全面建成小康社会"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-26",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2013年11月，审议通过《关于全面深化改革若干重大问题的决定》的会议是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共十八届一中全会",
+        "B.中共十八届二中全会",
+        "C.中共十八届三中全会",
+        "D.中共十八届四中全会"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第十章-single-27",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十九大强调，习近平新时代中国特色社会主义思想的核心要义是（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.坚持和发展马克思主义",
+        "B.坚持和发展中国特色社会主义",
+        "C.坚持人民民主专政",
+        "D.坚持中国共产党领导"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-28",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十九大明确指出，我国社会主要矛盾已经转化为（ ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.人民对于建立工业国的要求同落后的农业国的现实之间的矛盾",
+        "B.人民对于经济文化迅速发展的需要同经济文化不能满足人民需要的状况之间的矛盾",
+        "C.人民日益增长的物质文化需要和落后的社会生产之间的矛盾",
+        "D.人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第十章-single-29",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2010年以来，中国已经成为世界（  ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.第一大经济体",
+        "B.第二大经济体",
+        "C.第三大经济体",
+        "D.第四大经济体"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第十章-single-30",
+      "type": "single",
+      "chapter": "第十章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2005年，十届全国人大三次会议通过的法律是（  ）。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《香港特别行政区基本法》",
+        "B.《国家安全法》",
+        "C.《澳门特别行政区基本法》",
+        "D.《反分裂国家法》"
+      ],
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:21.992132+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第五章-single-1",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1930年到1931年，在红一方面军三次反“围剿”斗争胜利的基础上形成了（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.鄂豫皖革命根据地",
+        "B.左右江革命根据地",
+        "C.湘鄂西革命根据地",
+        "D.中央革命根据地"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第五章-single-2",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1928年，毛泽东主持制定中国共产党第一个土地法是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.井冈山",
+        "B.瑞金",
+        "C.古田",
+        "D.永新"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第五章-single-3",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "《义勇军进行曲》的词作者是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.田汉",
+        "B.聂耳",
+        "C.鲁迅",
+        "D.瞿秋白"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第五章-single-4",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1931年1月至1935年1月，中国共产党内出现的主要错误倾向是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“左”倾盲动主义",
+        "B.“左”倾教条主义",
+        "C.右倾保守主义",
+        "D.右倾投降主义"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第五章-single-5",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "遵义会议后，中共中央政治局成立了新的三人团负责红军的军事行动，其成员是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.毛泽东、朱德、周恩来",
+        "B.毛泽东、朱德、王稼祥",
+        "C.毛泽东、周恩来、王稼祥",
+        "D.毛泽东、张闻天、周恩来"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第五章-single-6",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "标志着中央红军行程二万五千里、纵横十一个省的长征胜利结束的是中共中央率陕甘支队同红十五军团会合于（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.陕北保安地区",
+        "B.陕北洛川地区",
+        "C.陕北瓦窑堡地区",
+        "D.陕北吴起镇"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第五章-single-7",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1928年12月，在东北宣布“服从南京国民政府，改易旗帜”的是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.孙传芳",
+        "B.吴佩孚",
+        "C.张作霖",
+        "D.张学良"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第五章-single-8",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "国民党在全国统治建立后，官僚资本的垄断活动首先和主要是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.从农业方面开始的",
+        "B.从工业方面开始的",
+        "C.从商业方面开始的",
+        "D.从金融业方面开始的"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第五章-single-9",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1930年8月，邓演达领导成立的中间党派是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国青年党",
+        "B.中国国家社会党",
+        "C.中国国民党临时行动委员会",
+        "D.中国国民党革命委员会"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第五章-single-10",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党独立领导革命战争、创建人民军队的开端是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.南昌起义",
+        "B.秋收起义",
+        "C.广州起义",
+        "D.百色起义"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第五章-single-11",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第五次反“围剿”斗争失败后，1934年10月开始战略转移的是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.红十五军团",
+        "B.红一方面军",
+        "C.红二方面军",
+        "D.红四方面军"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第五章-single-12",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1935年1月，中国共产党召开的具有历史转折意义的会议是（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.八七会议",
+        "B.古田会议",
+        "C.遵义会议",
+        "D.洛川会议"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第五章-single-13",
+      "type": "single",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1936年10月，中国工农红军第一、二、四方面军胜利会师于（  ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.陕北保安地区",
+        "B.陕北洛川地区",
+        "C.陕北瓦窑堡地区",
+        "D.甘肃会宁、静宁地区"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第五章-short_answer-1",
+      "type": "short_answer",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "国民党政府是怎样实行一党专政的军事独裁统治的？",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、建立庞大的军队。\n2、建立密布全国的特务系统。\n3、大力推行保甲制度。\n4、厉行文化专制主义。"
+    },
+    {
+      "id": "15043-第五章-short_answer-2",
+      "type": "short_answer",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "简述中国红色政权存在和发展的原因及条件。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、中国是一个几个帝国主义国家间接统治的经济政治发展极端不平衡的半殖民地半封建的大国。这是红色政权能够存在和发展的根本原因。\n2、国民革命的影响。\n3、全国革命形势的继续向前发展。这是红色政权存在和发展的两个客观条件。\n4、相当力量的正式红军的存在。\n5、共产党组织的坚强有力和各项政策的正确贯彻执行。这是红色政权存在和发展的两个主观条件。"
+    },
+    {
+      "id": "15043-第五章-short_answer-3",
+      "type": "short_answer",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "遵义会议集中解决的主要问题及其意义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "遵义会议集中全力解决了当时具有决定意义的军事和组织问题。遵义会议开始确立以毛泽东为代表的马克思主义正确路线在党中央的领导地位，挽救了中国共产党、中国工农红军和中国革命，成为中国共产党历史上一个生死攸关的转折点，这为党和革命事业转危为安、不断打开新局面提供了最重要的保证。"
+    },
+    {
+      "id": "15043-第五章-short_answer-4",
+      "type": "short_answer",
+      "chapter": "第五章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国工农红军铸就的长征精神是什么？",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "把全国人民和中华民族的根本利益看得高于一切，坚定革命的理想和信念，坚信正义事业必然胜利的精神；为了救国救民，不怕任何艰难险阻，不惜付出一切牺牲的精神；坚持独立自主、实事求是，一切从实际出发的精神；顾全大局、严守纪律、紧密团结的精神；紧紧依靠人民群众，同人民群众生死相依、患难与共、艰苦奋斗的精神。"
+    }
+  ]
+}

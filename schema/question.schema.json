@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "题库题目 Schema",
+  "description": "刷题训练小程序题库单个题目的数据结构定义（对齐自考 15043：单选 / 简答 / 论述）。跨字段业务规则由 tools/validate/validate.py 校验。",
+  "type": "object",
+  "required": ["id", "type", "chapter", "difficulty", "stem", "source"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "全局唯一，稳定。如 15043-2410-single-01"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["single", "short_answer", "essay"],
+      "description": "单选 / 简答 / 论述"
+    },
+    "chapter": {
+      "type": "string",
+      "description": "章节，如 第一章"
+    },
+    "knowledgePoint": {
+      "type": "string",
+      "description": "知识点（可选，用于专项练习）"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "难度 1–5"
+    },
+    "stem": {
+      "type": "string",
+      "description": "题干"
+    },
+    "options": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "description": "仅单选：选项数组"
+    },
+    "answer": {
+      "type": "string",
+      "description": "仅单选：正确选项字母，如 A"
+    },
+    "referenceAnswer": {
+      "type": "string",
+      "description": "仅简答/论述：参考答案全文"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "解析/考点说明（可选）"
+    },
+    "source": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["exam", "chapter_exercise", "notes"]
+        },
+        "year": {
+          "type": "string",
+          "description": "真题考期（exam 专用，如 2410）"
+        },
+        "file": {
+          "type": "string",
+          "description": "来源文件名"
+        },
+        "page": {
+          "type": "integer",
+          "description": "来源位置"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "标签，如 [鸦片战争, 南京条约]"
+    }
+  }
+}

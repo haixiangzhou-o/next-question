@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:21.279349+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第一章-single-1",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "近代中国一切灾难的总根源是（ ）",
+      "explanation": "鸦片战争是中国近代史的开端。中国近代史是中华民族遭受外国资本—帝国主义侵略、压迫、掠夺和剥削的历史，同时也是中国人民反抗外来侵略的历史。资本—帝国主义的侵略是近代中国一切灾难的总根源。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.腐朽没落的清朝统治",
+        "B.资本—帝国主义的侵略",
+        "C.科学技术的落后",
+        "D.闭关锁国"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第一章-single-2",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1840年鸦片战争前，中国社会的性质是（ ）",
+      "explanation": "从公元前5世纪的战国时代到1840年的鸦片战争，中国的封建社会前后延续了2000多年。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.奴隶社会",
+        "B.封建社会",
+        "C.半殖民地半封建社会",
+        "D.资本主义社会"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第一章-single-3",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国封建社会的主要矛盾是（ ）",
+      "explanation": "中国封建社会的主要矛盾，是地主阶级和农民阶级的矛盾。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.地主阶级和农民阶级的矛盾",
+        "B.帝国主义和中华民族的矛盾",
+        "C.资产阶级和工人阶级的矛盾",
+        "D.封建主义和资本主义的矛盾"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第一章-single-4",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "清王朝由强盛转向衰落是在（ ）",
+      "explanation": "在清朝前期的康熙、雍正、乾隆三朝，中国国家统一，政权巩固，社会稳定，经济繁荣，史称“康雍乾盛世”。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.乾隆朝后期",
+        "B.康熙朝后期",
+        "C.雍正朝后期",
+        "D.道光朝中期"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第一章-single-5",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "基督教在中国设立的最大出版机构广学会发行的报刊是（ ）",
+      "explanation": "广学会是基督教在中国设立的最大的出版机构。广学会发行的《万国公报》，除介绍西方的政治、经济、文化和社会状况外，还竭力宣扬殖民地奴化思想，为外国列强侵华进行辩护。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《中国丛报》",
+        "B.《北华捷报》",
+        "C.《字林西报》",
+        "D.《万国公报》"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第一章-single-6",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1860年洗劫和烧毁圆明园的是（ ）",
+      "explanation": "1860年，英法联军攻占北京后，对圆明园进行了连续12天的抢劫，放火烧毁了这座皇家园林。这是对人类文明的一次空前践踏。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.日本侵略军",
+        "B.俄国侵略军",
+        "C.英法联军",
+        "D.八国联军"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第一章-single-7",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在中国近现代史上，人民群众第一次大规模的反侵略武装斗争是（ ）",
+      "explanation": "1841年5月，广州郊区三元里人民联络附近103个乡的群众，与英国侵略者展开激烈战斗。这是中国近代史上中国人民第一次大规模的反侵略武装斗争。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.三元里人民的抗英斗争",
+        "B.太平天国抗击洋枪队的斗争",
+        "C.台湾人民的抗日斗争",
+        "D.义和团抗击八国联军的斗争"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第一章-single-8",
+      "type": "single",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1843年，魏源在《海国图志》中提出的思想主张是（ ）",
+      "explanation": "1843年，魏源在《海国图志》中提出了“师夷长技以制夷”的思想，主张学习外国先进的军事和科学技术，以期国家富强来抵御侵略。",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中学为体，西学为用",
+        "B.师夷长技以制夷",
+        "C.物竞天择，适者生存",
+        "D.维新变法，救亡图存"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第一章-short_answer-1",
+      "type": "short_answer",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "简述中国民族资产阶级的特点。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "民族资产阶级在其生存和发展过程中，一方面受到外国资本主义和本国封建主义的压迫，在一定条件下可以参加反帝反封建的革命或在斗争中保持中立；另一方面因其力量薄弱，又与外国资本主义和本国封建主义有着千丝万缕的联系，在斗争中缺乏彻底的革命性。"
+    },
+    {
+      "id": "15043-第一章-short_answer-2",
+      "type": "short_answer",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "近代中国工人阶级的特点。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "（1）深受帝国主义、封建势力和资产阶级的三重压迫和剥削，革命性最强。\n（2）人数虽少，但相对集中，便于形成革命的力量和传播先进的思想。\n（3）主要由破产农民和家庭手工业者转化而来，同农民有着天然的联系，便于结成工农联盟。"
+    },
+    {
+      "id": "15043-第一章-essay-1",
+      "type": "essay",
+      "chapter": "第一章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "试述近代以来中华民族面临的两大历史任务及其相互关系。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "两大历史任务：求得民族独立和人民解放；实现国家繁荣富强和人民共同富裕。\n两大历史任务的相互关系：既相互区别，又相互联系。\n其区别在于，前者是要从根本上推翻中国半殖民地半封建社会的统治秩序，着重解决生产关系问题；后者是要改变近代中国经济、文化和社会落后的地位和状况，是要充分发展近代民族工商业，着急解决生产力问题。\n其联系在于，只有完成第一大任务，才能为第二大任务的完成创造条件。一方面，争取民族独立和人民解放是实现国家繁荣富强和人民共同富裕的前提条件。只有实现民族独立和人民解放，才能废除列强同中国签订的一切不平等条约，才能推翻封建专制制度，改变买办的和封建的生产关系，解放生产力，开辟走向现代化的道路。另一方面，争取民族独立和人民解放 的最终目的是使中国走向现代化，实现国家繁荣富强和人民的共同富裕，使中华民族自立于世界民族之林。\n第一章进入近代后中华民族的磨难与抗争\n（第一章）\n鸦片战争前后的中国和世界\n（第一节）\n西方列强对中国的\n侵略（第二节）\n反侵略战争的失败与民族意识的觉醒\n（第四节）\n一、中国封建社会衰落\n二、世界资本主义的发展与殖民扩张\n三、鸦片战争的爆发\n一、军事侵略\n二、政治控制\n三、经济掠夺\n四、文化渗透\n一、反抗外来侵略的斗争历程\n二、义和团运动与列强瓜分中国\n图谋的破产\n一、反侵略战争的失败及其原因\n二、民族意识的觉醒\n反抗外国武装侵略的斗争（第三节）"
+    }
+  ]
+}

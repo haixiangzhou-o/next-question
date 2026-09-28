@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:21.819900+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第四章-single-1",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新文化运动兴起的标志是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.蔡元培就任北京大学校长",
+        "B.鲁迅发表《狂人日记》",
+        "C.陈独秀在上海创办《新青年》",
+        "D.胡适发表《文学改良刍议》"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第四章-single-2",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1920年8月，在上海出版的《共产党宣言》第一个中文全译本的译者是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.李大钊",
+        "B.陈望道",
+        "C.陈独秀",
+        "D.蔡和森"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第四章-single-3",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1920年3月，在北京大学成立的学习和宣传马克思主义的社团是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.新民学会",
+        "B.觉悟会",
+        "C.互助社",
+        "D.马克思学说研究会"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第四章-single-4",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1920年11月，中国共产党早期组织领导建立的第一个产业工会是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.上海机器工会",
+        "B.上海印刷工会",
+        "C.上海纺织工会",
+        "D.中华全国总工会"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第四章-single-5",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1923年2月，中国共产党领导的工人罢工斗争是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.香港海员罢工",
+        "B.安源路矿工罢工",
+        "C.京汉铁路工人罢工",
+        "D.省港工人罢工"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第四章-single-6",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共成立后，组织成立的领导工人运动的专门机关是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.全国工人总工会",
+        "B.京汉铁路总工会",
+        "C.省港罢工委员会",
+        "D.中国劳动组合书记部"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第四章-single-7",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第一次国共合作建立后，全国范围大革命风暴兴起的标志是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.护国战争",
+        "B.护法运动",
+        "C.北伐战争",
+        "D.五卅运动"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第四章-single-8",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1927年，蒋介石在上海制造了捕杀共产党员和革命群众的（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中山舰事件",
+        "B.整理党务案",
+        "C.四一二政变",
+        "D.七一五政变"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第四章-single-9",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1927年，汪精卫在武汉制造了屠杀共产党人和革命群众的（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中山舰事件",
+        "B.整理党务案事件",
+        "C.四一二事变",
+        "D.七一五事变"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第四章-single-10",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1918年5月，鲁迅发表的第一篇白话文小说（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《阿Q正传》",
+        "B.《狂人日记》",
+        "C.《药》",
+        "D.《祝福》"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第四章-single-11",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "五四运动爆发的直接导火线是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.北洋军阀接受日本提出的“二十一条”",
+        "B.北洋军阀与日本签订“西原借款”合同",
+        "C.巴黎和会上中国外交的失败",
+        "D.华盛顿会议上中国外交的受挫"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第四章-single-12",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1919年，发表《我的马克思主义观》一文的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.陈独秀",
+        "B.李大钊",
+        "C.蔡和森",
+        "D.杨匏安"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第四章-single-13",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党第一次明确提出反帝反封建民主革命纲领的会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共一大",
+        "B.中共二大",
+        "C.中共三大",
+        "D.中共四大"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第四章-single-14",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1922年1月，中国共产党领导的第一次工人运动高潮的起点是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.香港海员罢工",
+        "B.安源路矿工人罢工",
+        "C.京汉铁路工人罢工",
+        "D.省港工人罢工"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第四章-single-15",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1921年9月，中国共产党领导成立的第一个农民协会是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.湖南省湘潭县",
+        "B.广东省海丰县",
+        "C.浙江省萧山县",
+        "D.福建省上杭县"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第四章-single-16",
+      "type": "single",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第一次国共合作的政治基础是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.三民主义",
+        "B.新三民主义",
+        "C.新民主主义",
+        "D.社会主义"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第四章-short_answer-1",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "简述五四运动爆发的社会历史条件。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、它发生在俄国十月革命所开辟的世界无产阶级社会主义革命的新时代。\n2、新的社会力量的成长。第一次世界大战期间，中国民族资本主义经济得到短暂而迅速的发展。中国的工人阶级和民族资产阶级的力量也进一步壮大起来。中国工人阶级成为一支日益重要的社会力量。\n3、新文化运动掀起的思想解放潮流的推动，为五四运动准备了群众基础和骨干力量。"
+    },
+    {
+      "id": "15043-第四章-short_answer-2",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国国民党第一次全国代表大会对三民主义的新阐释是什么？",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、民族主义突出了反对帝国主义的内容，强调对外争取中华民族的完全独立，同时主张国内各民族一律平等；\n2、民权主义强调民权为一般平民所共有，不应为“少数人所得而私”；\n3、民生主义在“平均地权”基础上增加了“节制资本”的原则，并提出改善工农的生活状况。"
+    },
+    {
+      "id": "15043-第四章-short_answer-3",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1926年至1927年，北伐战争直接打击的目标和战略方针。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "北伐战争直接打击的目标：帝国主义支持的北洋军阀吴佩孚、孙传芳、张作霖。\n其战略方针：首先以主力进军两湖，消灭吴佩孚；然后引兵东向，消灭孙传芳；最后，北上解决张作霖。"
+    },
+    {
+      "id": "15043-第四章-short_answer-4",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "北伐战争胜利进军的主要原因是什么？",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、国共合作的实现，革命统一战线的建立，特别是共产党员和共青团员的先锋模范作用是北伐胜利的重要原因。\n2、北伐军得到广大工农群众的大力支持。\n3、北伐战争得到苏联政府的多方面援助，特别是派出的军事顾问帮助北伐军制定了正确的军事战略战术。"
+    },
+    {
+      "id": "15043-第四章-short_answer-5",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国早期马克思主义信仰者的三种类型及其代表人物。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、五四运动前新文化运动的精神领袖，其代表人物是李大钊、陈独秀。\n2、五四运动中的左翼骨干，其代表是毛泽东、杨匏安、蔡和森、周恩来等。\n3、一部分原中国同盟会会员、辛亥革命时期的活动家，其代表是董必武、吴玉章、林伯渠等。"
+    },
+    {
+      "id": "15043-第四章-short_answer-6",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共三大的主要内容及意义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "中共三大集中讨论了建立革命统一战线的问题，决定全体共产党以个人名义加入国民党；同时强调党必须在政治上、思想上、组织上保持自己的独立性；中共三大正确制定了建立革命统一战线的方针政策，有力推动了第一次国共合作的形成。"
+    },
+    {
+      "id": "15043-第四章-short_answer-7",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "俄国十月革命对中国革命的影响。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "“十月革命一声炮响，给我们送来了马克思列宁主义。”十月革命推动中国的先进分子从资产阶级民主主义转向社会主义。\n1、十月革命启示中国先进分子：经济文化落后的国家也可以用社会主义思想指引自己的解放之路。\n2、十月革命后，苏维埃俄国号召反对帝国主义，以新的平等姿态对待中国，推动了社会主义思想在中国的传播。"
+    },
+    {
+      "id": "15043-第四章-short_answer-8",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "五四运动的历史特点及意义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、五四运动是中国近代史上一次彻底的反帝反封建的革命运动，把中国人民反帝反封建的斗争提升到一个新的水平。\n2、广泛地动员和组织了群众，是一场真正的群众性的革命运动。在运动中青年学生起了先锋作用，工人阶级第一次作为独立的政治力量登上历史舞台，在运动后期发挥了主力军作用。"
+    },
+    {
+      "id": "15043-第四章-short_answer-9",
+      "type": "short_answer",
+      "chapter": "第四章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党成立的历史意义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、它标志着中国革命终于有了一个坚强的领导核心，有了可信赖的组织者和领导者。\n2、中国革命从此有了科学的指导思想。中国共产党以马克思列宁主义基本原理观察和分析中国的问题，为中国人民指明了斗争的目标、革命的前途和走向胜利的道路。\n3、它沟通了中国革命与世界革命的联系，把中华民族的解放运动同世界无产阶级社会主义革命运动相联结并成为其中一部分，使中国革命有了新的前途。自从有了中国共产党，中国革命的面目就焕然一新。"
+    }
+  ]
+}

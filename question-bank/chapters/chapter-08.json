@@ -1,0 +1,1464 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:22.546067+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第八章-single-1",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "20世纪中国人民在前进道路上经历的第二次历史性巨大变化是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.新中国成立和社会主义制度建立",
+        "B.辛亥革命",
+        "C.中华民国成立",
+        "D.改革开放"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-2",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国成立后西方资本主义国家对华实行的政策不包括（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.政治孤立",
+        "B.经济封锁",
+        "C.军事威胁",
+        "D.文化包围"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-3",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1950年6月，中央人民政府颁布的土地法是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《中国土地法大纲》",
+        "B.《中华人民共和国土地法》",
+        "C.《中国土地改革法》",
+        "D.《中华人民共和国土地改革法》"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-4",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "祖国大陆基本解放和各族人民实现统一的标志是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1950年剿匪完成",
+        "B.1950年国民党残余力量消灭",
+        "C.1951年西藏和平解放",
+        "D.1951年民族区域自治纲领颁布实施"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-5",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国几千年的封建土地所有制被彻底消灭的时间是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1949年新中国成立",
+        "B.1953年土地改革基本完成",
+        "C.1956年三大改造完成",
+        "D.1950年土地法颁布"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-6",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国成立初期开展的镇压反革命运动的政策是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.坦白从宽，抗拒从严",
+        "B.镇压与宽大相结合",
+        "C.惩前毖后，治病救人",
+        "D.知无不言，言者无罪"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-7",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国成立初期，中国共产党对私营工商业的生产关系、劳资关系和产销关系进行全面调整的原则是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“消灭资本主义”",
+        "B.“经销代销”",
+        "C.“统购统销”",
+        "D.“公私兼顾、劳资两利”"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-8",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第一部《中华人民共和国婚姻法》颁布于（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1950年5月",
+        "B.1951年5月",
+        "C.1952年5月",
+        "D.1953年5月"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-9",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1951年9月，在全国知识分子中开展了（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.教育者先受教育运动",
+        "B.整风运动",
+        "C.思想改造运动",
+        "D.批判旧思想运动"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-10",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国统一货币的形成是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1949年",
+        "B.1950年",
+        "C.1951年",
+        "D.1952年"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-11",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国成立初期，除了人民解放军在前线的胜利之外，中央人民政府为人民所做的最大一件工作是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.镇压反革命",
+        "B.稳定物价和统一财政工作",
+        "C.“三反”运动",
+        "D.“五反”运动"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-12",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1949年10月2日，第一个同中国建交的国家是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.朝鲜",
+        "B.越南",
+        "C.苏联",
+        "D.南斯拉夫"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-13",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国军队参加抗美援朝战争最重要原因是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.朝鲜位置对中国十分重要",
+        "B.打击美帝国主义的侵略气焰",
+        "C.巩固社会主义阵营的需要",
+        "D.美国侵略军严重威胁到中国安全"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-14",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1950年1月，同新中国建交的欧洲国家不包括（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.保加利亚",
+        "B.罗马尼亚",
+        "C.波兰",
+        "D.瑞典"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-15",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新民主主义革命过程中形成和发展起来的新民主主义政治、经济、文化，都是由工人阶级领导的，因而都具有（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.民主主义因素",
+        "B.资本主义因素",
+        "C.新民主主义因素",
+        "D.社会主义因素"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-16",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党领导的革命所包含的两个阶段是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.旧民主主义革命和新民主主义革命",
+        "B.反帝国主义革命和反封建主义革命",
+        "C.社会主义革命和共产主义革命",
+        "D.新民主主义革命和社会主义革命"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-17",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "下列选项中，不属于新民主主义向社会主义转变必要条件的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国共产党的政治领导",
+        "B.社会主义国营经济的领导地位",
+        "C.马克思主义在思想文化领域中的指导地位",
+        "D.社会主义工业化的实现"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-18",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "下列关于新民主主义社会的观点错误的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.独立的社会形态",
+        "B.具有过渡性",
+        "C.具有社会主义因素",
+        "D.有资本主义因素"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-19",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国开始实施发展国民经济第一个五年计划的时间是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1950年",
+        "B.1951年",
+        "C.1952年",
+        "D.1953年"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-20",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共中央正式提出党在过渡时期总路线是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1951年",
+        "B.1952年",
+        "C.1953年",
+        "D.1954年"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-21",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党在过渡时期总路线的主体是实现（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.国家的社会主义工业化",
+        "B.国家对农业的社会主义改造",
+        "C.国家对手工业的社会主义改造",
+        "D.国家对资本主义工商业的社会主义改造"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-22",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "对农业进行社会主义改造的途径是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.公私合营",
+        "B.合作化",
+        "C.国家资本主义",
+        "D.和平赎买"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-23",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "高级农业生产合作社的分配原则是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.平均分配",
+        "B.按需分配",
+        "C.各尽所能、按劳分配",
+        "D.统一配给"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-24",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东全面总结农业合作化运动基本经验的报告是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《关于农业合作化问题》",
+        "B.《关于农业生产互助合作的决议（草案）》",
+        "C.《关于发展农业生产合作社的决议》",
+        "D.《组织起来》"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-25",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "改造资本主义工商业和逐步完成社会主义过渡的必经之路是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.革命",
+        "B.国家资本主义",
+        "C.个人私有制",
+        "D.对民族资本的赎买"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-26",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国成立初期，着重发展的是（ ）等初级形式的国家资本主义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.加工订货、经销代销",
+        "B.参与入股、共同经营",
+        "C.个别企业公私合营",
+        "D.全行业公私合营"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-27",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "社会主义改造中对资本主义工商业企业利润采取了“四马分肥”的办法，“四马分肥”具体是指（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.国家所得税、企业公积金、工人工资、股金红利",
+        "B.国家所得税、企业公积金、工人福利费、股东股息",
+        "C.国家所得税、企业公积金、工人福利费、股金红利",
+        "D.国家所得税、工人工资、工人福利费、股东股息"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-28",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "社会主义革命的目的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.解放生产力",
+        "B.推进工业化",
+        "C.建设现代化国家",
+        "D.实现国家的繁荣富强"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-29",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东提出实现马克思主义同中国实际“第二次结合”是在（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1956年中共中央书记处会议",
+        "B.1956年中央政治局扩大会议",
+        "C.1957年最高国务会议",
+        "D.1956年中共八大"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-30",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "我国社会主义改造基本完成后，党和国家的根本任务是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.进行政治建设",
+        "B.进行文化建设",
+        "C.保护和发展生产力",
+        "D.进行社会建设"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-31",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东在《论十大关系》中提出，处理中国共产党和民主党派关系的方针是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.长期共存，互相监督",
+        "B.以诚相待，患难与共",
+        "C.肝胆相照，荣辱与共",
+        "D.同甘共苦，同舟共济"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-32",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东在《论十大关系》中提出的中国社会主义建设的基本方针是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.不要四面出击",
+        "B.调整、巩固、充实、提高",
+        "C.调动一切积极因素为社会主义事业服务",
+        "D.积极引导、稳步前进"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-33",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1956年被毛泽东称作“新经济政策”的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.社会主义条件下的商品生产",
+        "B.可以消灭了资本主义，又搞资本主义",
+        "C.社会主义条件下的价值规律",
+        "D.“三个主体、三个补充”的思想"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-34",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1956年，在中共八大上提出“三个主体，三个补充”思想的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.周恩来",
+        "B.刘少奇",
+        "C.邓小平",
+        "D.陈云"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-35",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1956年召开的中共八大指出，党和全国人民当前的主要任务是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.争取国家财政经济状况的根本好转",
+        "B.正确处理人民内部矛盾",
+        "C.把我国从落后的农业国变为先进的工业国",
+        "D.实现社会主义四个现代化"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-36",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东在1957年2月扩大的最高国务会议上指出，我国政治生活的主题是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.正确处理敌我矛盾",
+        "B.正确处理人民内部矛盾",
+        "C.正确处理共产党和民主党派的关系",
+        "D.正确处理民主和专政的关系"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-37",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在探索中国社会主义建设道路过程中，提出社会主义社会基本矛盾学说的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.刘少奇",
+        "B.毛泽东",
+        "C.陈云",
+        "D.周恩来"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-38",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1957年6月开展的全国规模的群众性运动是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.肃反运动",
+        "B.整风运动",
+        "C.反右派运动",
+        "D.人民公社化运动"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-39",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1957年，整风运动全面展开的标志是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共中央正式发出《关于整风运动的指示》",
+        "B.《关于正确处理人民内部矛盾的问题》的讲话",
+        "C.《论十大关系》的发表",
+        "D.《这是为什么？》的发表"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-40",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1957年整风运动的形式是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.闭门整风",
+        "B.开门整风",
+        "C.大鸣、大放、大辩论、大字报",
+        "D.批评和自我批评"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-41",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1957年整风运动反对的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.教条主义、主观主义、宗派主义",
+        "B.主观主义、宗派主义、官僚主义",
+        "C.教条主义、宗派主义、官僚主义",
+        "D.主观主义、官僚主义、教条主义"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-42",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1958年兴起的人民公社的基本特点是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.政社合一",
+        "B.力争上游",
+        "C.一大二公",
+        "D.一体两翼"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-43",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1958年兴起的人民公社实行的体制是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.私有制",
+        "B.集体所有制",
+        "C.一大二公",
+        "D.政社合一"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-44",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "标志着初步纠正“左”倾错误的会议是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共八届六中全会",
+        "B.第一次郑州会议",
+        "C.第二次郑州会议",
+        "D.武昌中共中央政治局扩大会议"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-45",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "以下选项不属于中共八届六中全会《关于人民公社若干问题的决议》中批评的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.混淆集体所有制同全民所有制界限的思想",
+        "B.否定商品生产的思想",
+        "C.“反右倾”思想",
+        "D.取消按劳分配的思想"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-46",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1959年，给毛泽东写信，着重指出“大跃进”存在的严重问题和突出矛盾的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.彭德怀",
+        "B.周恩来",
+        "C.邓小平",
+        "D.张天闻"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-47",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1959年，在中共中央召开的庐山会议上受到错误批判的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.彭德怀",
+        "B.刘少奇",
+        "C.周恩来",
+        "D.邓小平"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-48",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1962年初，中共中央为总结经验教训、明确工作方向召开的会议是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.南宁会议",
+        "B.“七千人大会”",
+        "C.成都会议",
+        "D.郑州会议"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-49",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在“七千人大会”上系统阐述民主集中制原则的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.毛泽东",
+        "B.周恩来",
+        "C.邓小平",
+        "D.刘少奇"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-50",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国第一次提出实现“四个现代化”奋斗目标的会议是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.第一届全国人民代表大会",
+        "B.第二届全国人民代表大会",
+        "C.第三届全国人民代表大会",
+        "D.第四届全国人民代表大会"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-51",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在三届全国人大一次会议上正式宣布，把我国逐步建设成为社会主义强国的目标不包括实现（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.农业现代化",
+        "B.工业现代化",
+        "C.科学技术现代化",
+        "D.商业现代化"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-52",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1967年，谭震林等对中央文革小组的错误做法进行的抗争被诬称为（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“一月风暴”",
+        "B.“反攻倒算”",
+        "C.“右倾翻案”",
+        "D.“二月逆流”"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-53",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1962年9月召开的中共八届十中全会进一步发展了（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.社会主义经济理论",
+        "B.“以阶级斗争为纲”的理论",
+        "C.无产阶级革命理论",
+        "D.实现现代化的理论"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-54",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "“文化大革命”的导火线是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.城乡社会主义教育运动",
+        "B.《评新编历史剧<海瑞罢官>》的发表",
+        "C.“五一六通知”",
+        "D.对电影《武训传》的批判"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-55",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "发动“文化大革命”的主要论点，被概括成为（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“阶级斗争扩大化”的理论",
+        "B.“无产阶级专政下继续革命的理论”",
+        "C.社会主义革命的理论",
+        "D.社会主义革命和建设的理论"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-56",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1970-1971年阴谋夺取最高权力、策动反革命武装政变的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.江青反革命集团",
+        "B.康生反革命集团",
+        "C.林彪反革命集团",
+        "D.姚文元反革命集团"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-57",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "“文化大革命”结束的标志是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.林彪反革命集团被粉碎",
+        "B.粉碎了江青反革命集团",
+        "C.天安门事件爆发",
+        "D.反击右倾翻案风"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-58",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "“文化大革命”的性质是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.反革命动乱",
+        "B.由领导者发动，被反革命集团利用的内乱",
+        "C.社会主义革命的继续",
+        "D.封建主义的复辟动乱"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-59",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "“文化大革命”期间，中国共产党粉碎“四人帮”反革命集团是在（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1967年",
+        "B.1971年",
+        "C.1972年",
+        "D.1976年"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-60",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "从1953年到1978年的25年间，我国最大的建设成就是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.基本建立了独立的、比较完整的工业体系和国民经济体系",
+        "B.人民生活水平普遍提高，初步解决了温饱问题",
+        "C.国际地位得到提高",
+        "D.制定了两个科技长远发展规划，成功爆炸了第一颗原子弹"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-61",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "20世纪六七十年代，新中国在科技领域取得的重大成就不包括（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.第一颗月球探测卫星发射成功",
+        "B.第一颗原子弹试验成功",
+        "C.第一颗人造地球卫星发射成功",
+        "D.第一颗氢弹试验成功"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-62",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国第一颗人造地球卫星发射成功的时间是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1964年10月",
+        "B.1966年10月",
+        "C.1967年10月",
+        "D.1970年4月"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第八章-single-63",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1964年，新中国取得的重大科技成就是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.第一颗原子弹试验成功",
+        "B.第一颗氢弹试验成功",
+        "C.第一台万吨水压机试制成功",
+        "D.第一颗人造卫星发射成功"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第八章-single-64",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "新中国恢复在联合国合法席位的时间是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1949年",
+        "B.1966年",
+        "C.1971年",
+        "D.1978年"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第八章-single-65",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1950年至1953年间，同中国共同倡导和平共处五项原则的国家有（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.苏联、印度",
+        "B.印度、缅甸",
+        "C.缅甸、泰国",
+        "D.苏联、泰国"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第八章-single-66",
+      "type": "single",
+      "chapter": "第八章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东号召全党提高警惕，同帝国主义（）战略的危险作斗争。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.经济封锁",
+        "B.“和平演变”",
+        "C.武装进攻",
+        "D.扶植反动势力"
+      ],
+      "answer": "B"
+    }
+  ]
+}

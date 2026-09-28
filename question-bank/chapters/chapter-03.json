@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:21.648831+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第三章-single-1",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "我国的科举制度正式废除于（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1904年",
+        "B.1905年",
+        "C.1906年",
+        "D.1908年"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第三章-single-2",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1894年，孙中山在檀香山建立的中国第一个资产阶级革命组织是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.兴中会",
+        "B.华兴会",
+        "C.光复会",
+        "D.岳王会"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第三章-single-3",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "20世纪初，邹容发表的宣传民主革命思想的著作是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《驳康有为论革命书》",
+        "B.《革命军》",
+        "C.《警世钟》",
+        "D.《猛回头》"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第三章-single-4",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "近代中国历史上第一个全国性的资产阶级革命政党是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.兴中会",
+        "B.中国同盟会",
+        "C.中华革命党",
+        "D.中国国民党"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第三章-single-5",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "20世纪初，在民主革命思想传播中发表《警世钟》的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.章炳麟",
+        "B.邹容",
+        "C.陈天华",
+        "D.孙中山"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第三章-single-6",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1905年11月，孙中山将同盟会纲领概括为民族、民权、民生三大主义的文章是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《猛回头》",
+        "B.《革命军》",
+        "C.《警世钟》",
+        "D.《民报》发刊词"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第三章-single-7",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国同盟会的机关报是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《民报》",
+        "B.《苏报》",
+        "C.《民国日报》",
+        "D.《新民丛报》"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第三章-single-8",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1911年，标志辛亥革命达到高潮的起义是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.惠州起义",
+        "B.河口起义",
+        "C.广州起义",
+        "D.武昌起义"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第三章-single-9",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "袁世凯窃夺辛亥革命成果后，于1914年5月炮制了（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《戒严法》",
+        "B.《中华民国约法》",
+        "C.《钦定宪法大纲》",
+        "D.《暂行新刑律》"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第三章-single-10",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "“二次革命”失败后，孙中山逃亡日本。1914年7月，孙中山在东京正式成立（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国国民党",
+        "B.国民党",
+        "C.中华革命党",
+        "D.中国同盟会"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第三章-single-11",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1904年至1905年，为争夺在华利益而在中国东北进行战争的帝国主义国家是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.日本与俄国",
+        "B.美国与英国",
+        "C.英国与日本",
+        "D.美国与俄国"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第三章-single-12",
+      "type": "single",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在1911年爆发的保路运动中，规模最大、斗争最激烈的省份是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.四川",
+        "B.湖南",
+        "C.广东",
+        "D.湖北"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第三章-short_answer-1",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1911年保路风潮发生的原因是什么？",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、清政府皇族内阁为筹集借款，宣布“铁路干线收归国有”，并将粤汉、川汉铁路的路权出卖给帝国主义，引起湖北、湖南、广东、四川等四省民众的强烈反对；\n2、最初，各省立宪派倡导文明保路，但遭清政府镇压；\n3、署理四川总督赵尔丰竟下令向请愿群众开枪，当场打死30多人，造成成都血案。"
+    },
+    {
+      "id": "15043-第三章-short_answer-2",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "辛亥革命时期中国资产阶级革命派的阶级基础和骨干力量。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "中国资产阶级革命派的阶级基础是民族资产阶级。其骨干力量是一批资产阶级、小资产阶级知识分子。这个群体是随着19世纪末20世纪初清政府兴学堂、派留学生而逐渐形成的。"
+    },
+    {
+      "id": "15043-第三章-short_answer-3",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "资产阶级革命派与改良派论战的焦点及革命派在这一问题上的主张。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "论战的焦点是要不要以革命手段推翻清政府。革命派强调：救国必先推翻卖国媚外的清王朝；革命虽不免流血，但可“救世救人”，是疗治社会的捷径；革命是为了建设，破坏与建设是革命的两个方面。"
+    },
+    {
+      "id": "15043-第三章-short_answer-4",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1912年建立的中华民国临时政府的性质。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "它是一个资产阶级共和国性质的革命政权。\n1、在人员构成上，资产阶级革命派控制着政权。\n2、在实行的各项政策措施上，集中体现了中国民族资产阶级的愿望和利益，也一定程度上符合广大中国人民的利益。"
+    },
+    {
+      "id": "15043-第三章-short_answer-5",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "辛亥革命失败后孙中山为捍卫资产阶级民主革命成果所进行的斗争。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1、反对袁世凯刺杀宋教仁和“善后大借款”，发动“二次革命”。\n2、反对袁世凯称帝，发动护国运动。\n3、反对北洋军阀破坏《中华民国临时约法》和拒绝恢复国会，发动第一次、第二次护法运动。"
+    },
+    {
+      "id": "15043-第三章-short_answer-6",
+      "type": "short_answer",
+      "chapter": "第三章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1905年至1907年资产阶级革命派与改良派的论战及其意义。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1905年至1907年，以孙中山为代表的革命派和以康有为为代表的改良派，分别以《民报》和《新民丛报》为主要舆论阵地展开论战。论战主要围绕以下问题展开：\n1、要不要以革命手段推翻清政府。这是论战的焦点。\n2、要不要推翻帝制，实行共和。\n3、要不要社会革命。"
+    }
+  ]
+}

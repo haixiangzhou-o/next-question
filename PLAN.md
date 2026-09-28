@@ -223,8 +223,8 @@ next-question/
 │  └─ generate/               # 生成 exam/*.json 与 chapters/*.json
 ├─ question-bank/             # 结构化题库源数据
 │  ├─ exam/                   # 真题集（2410.json、2504.json、2510.json、2604.json）
-│  ├─ chapters/               # 章节练习（第一章.json … 第十章.json）
-│  └─ notes/                  # 考点辅助（可选）
+│  ├─ chapters/               # 章节练习（chapter-01.json … chapter-10.json）
+│  └─ notes/                  # 考点辅助（review-notes.json，可选）
 ├─ src/                       # Taro 应用源码
 │  ├─ pages/                  # 页面（首页、刷题、考试、错题、统计、打卡）
 │  ├─ components/             # 通用组件

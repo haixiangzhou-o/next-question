@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:21.459827+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第二章-single-1",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "太平天国农民战争爆发的标志是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.金田起义",
+        "B.永安建制",
+        "C.长沙战役",
+        "D.南京定都"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-2",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1851年，中国爆发了一场伟大的农民战争，达到了历代农民战争最高峰，它是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.大泽乡起义",
+        "B.辛亥革命",
+        "C.太平天国运动",
+        "D.义和团运动"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-3",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1853年3月，洪秀全领导的太平天国建都（），后改称天京。",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.金田",
+        "B.武昌",
+        "C.安庆",
+        "D.南京"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第二章-single-4",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1853年，太平天国定都天京后颁布的纲领性文件是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《原道觉世训》",
+        "B.《十款天条》",
+        "C.《天朝田亩制度》",
+        "D.《资政新篇》"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-5",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "太平天国由盛而衰的转折点是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.长沙战役",
+        "B.北伐受挫",
+        "C.天京事变",
+        "D.安庆失守"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-6",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "太平天国后期，提出《资政新篇》这一具有资本主义色彩改革方案的人是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.洪秀全",
+        "B.杨秀清",
+        "C.洪仁玕",
+        "D.石达开"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-7",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "对洋务派兴办洋务事业的指导思想最先作出比较完整表述的是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.奕訢",
+        "B.冯桂芬",
+        "C.曾国藩",
+        "D.李鸿章"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第二章-single-8",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "洋务派创办的第一个规模较大的近代军事工业是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.江南制造总局",
+        "B.金陵机器局",
+        "C.马尾船政局",
+        "D.天津机器局"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-9",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1861年，清政府设立的综理洋务的中央机关是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.江南制造总局",
+        "B.京师同文馆",
+        "C.总理各国事务衙门",
+        "D.外务部"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-10",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "洋务派最早从事的洋务事业是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.兴办军用工业",
+        "B.兴办民用工业",
+        "C.派遣留学生",
+        "D.创立新式学堂"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-11",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "洋务运动时期最早创办的翻译学堂是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.同文馆",
+        "B.广方言馆",
+        "C.译书局",
+        "D.译书馆"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-12",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "19世纪90年代，梁启超宣传变法维新主张的著作是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《新学伪经考》",
+        "B.《仁学》",
+        "C.《人类公理》",
+        "D.《变法通义》"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第二章-single-13",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "戊戌维新时期，维新派在上海创办的影响较大的报刊是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《时务报》",
+        "B.《国闻报》",
+        "C.《湘报》",
+        "D.《万国公报》"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-14",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在中国近代史上，资产阶级思想与封建主义思想的第一次正面交锋是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.洋务派与顽固派的论战",
+        "B.洋务派与维新派的论战",
+        "C.维新派与守旧派的论战",
+        "D.革命派与改良派的论战"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-15",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "19世纪60年代，清朝统治集团中倡导洋务的首领人物是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.曾国藩",
+        "B.奕訢",
+        "C.李鸿章",
+        "D.张之洞"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第二章-single-16",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "19世纪60年代，面对内忧外患，封建统治阶级中的部分成员如奕訢、曾国藩、李鸿章、左宗棠、张之洞等，以“自强”“求富”为目标，主张伪造西方的武器装备和学习西方的科学技术，这些官员被称为（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.地主阶级改革派    B.洋务派",
+        "C.维新派            D.顽固派"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第二章-single-17",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "到19世纪90年代，洋务派建成的新式海军中的主力是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.北洋水师",
+        "B.广东水师",
+        "C.南洋水师",
+        "D.福建水师"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第二章-single-18",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "戊戌维新时期，谭嗣同撰写的宣传变法主张的著作是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《新学伪经考》",
+        "B.《变法通义》",
+        "C.《仁学》",
+        "D.《日本变政考》"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-19",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1898年发表《劝学篇》一文，对抗维新变法的洋务派官僚是（）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.李鸿章",
+        "B.左宗棠",
+        "C.张之洞",
+        "D.刘坤一"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第二章-single-20",
+      "type": "single",
+      "chapter": "第二章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "标志着中国民族资产阶级开始登上政治舞台的运动是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.洋务运动",
+        "B.戊戌维新运动",
+        "C.国会请愿运动",
+        "D.保路运动"
+      ],
+      "answer": "B"
+    }
+  ]
+}

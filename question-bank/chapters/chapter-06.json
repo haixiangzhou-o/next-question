@@ -1,0 +1,782 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "chapter_exercise",
+    "year": null,
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T15:03:22.179708+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-第六章-single-1",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1931年，日本帝国主义制造的侵略中国东北的事变是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.九一八事变",
+        "B.一·二八事变",
+        "C.七七事变",
+        "D.八一三事变"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-2",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "面对日本发动的“九一八事变”和“华北事变”，国民政府奉行的妥协方针除了“攘外必先安内”之外，还有（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.绥靖政策",
+        "B.实行不抵抗主义",
+        "C.持久消耗战",
+        "D.以空间换时间"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-3",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1937年，日本帝国主义发动全面侵华战争的标志是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.九一八事变",
+        "B.一·二八事变",
+        "C.华北事变",
+        "D.卢沟桥事变"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-4",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1940年，投降日本并建立伪“中华民国国民政府”的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.汪精卫",
+        "B.段祺瑞",
+        "C.胡汉民",
+        "D.石友三"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-5",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗战时期，独占了东北全部重工业和铁路交通，控制了东北经济命脉的公司是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.南满铁路株式会社和南满重工亚股份公司",
+        "B.南满铁路株式会社和华北开发股份公司",
+        "C.华北开发股份公司和南满重工亚股份公司",
+        "D.华北开发股份公司和华中振兴股份公司"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-6",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1936年，东北各抗日武装统一为（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.东北抗日联军",
+        "B.东北义勇军",
+        "C.东北人民革命军",
+        "D.抗日游击队"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-7",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "一·二九运动的口号不包括（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.反对华北自治运动",
+        "B.打倒日本帝国主义",
+        "C.停止内战，一致对外",
+        "D.变更“剿共”政策"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-8",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "标志十年内战的局面结束，国内和平基本实现，成为时局转换的枢纽的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.国民党五届三中全会的召开",
+        "B.西安事变的和平解决",
+        "C.中共瓦窑堡会议的召开",
+        "D.蒋介石发表庐山谈话"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-9",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1938年3月，国民党军队在抗日战争正面战场取得胜利的战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.平型关战役",
+        "B.桂南战役",
+        "C.台儿庄战役",
+        "D.枣宜战役"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-10",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗战时期中国战区成立的背景不包括（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.日军偷袭珍珠港，太平洋战争爆发",
+        "B.美、英等国对日宣战",
+        "C.国民政府正式对日宣战",
+        "D.中国远征军出国作战"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-11",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "国民政府正式对日宣战是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.九一八事变",
+        "B.卢沟桥事变",
+        "C.一·二八事变",
+        "D.太平洋战争爆发后"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-12",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争进入相持阶段后，日本帝国主义对国民党政府采取的政策是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.以军事打击为主，政治诱降为辅",
+        "B.以政治诱降为主，军事打击为辅",
+        "C.军事打击和政治诈降并重",
+        "D.速战速决，武力征服"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-13",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1940年，在枣宜会战中以身殉国的国民党爱国将领是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.佟麟阁",
+        "B.赵登禹",
+        "C.谢晋元",
+        "D.张自忠"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-14",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗战时期文化界提出的文艺创作的三大目标是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.抗战、团结、民主",
+        "B.抗战、团结、文明",
+        "C.团结、勇敢、创新",
+        "D.救国、抗战、创新"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-15",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在抗日战争中为国捐躯的八路军副参谋长是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.彭雪枫",
+        "B.赵尚志",
+        "C.杨靖宇",
+        "D.左权"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-16",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争中，八路军、新四军的作战方针是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.全面开展游击战，破坏敌人后方",
+        "B.运动战为主，消灭敌人有生力量",
+        "C.运动战为主，游击战为辅",
+        "D.基本是游击战，但不放松有利条件下的运动战"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-17",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党领导的民主政权实行“三三制”原则是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.解放战争时期",
+        "B.抗日根据地政权建设时期",
+        "C.土地改革时期",
+        "D.大革命时期"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-18",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日根据地实行“三三制”政权，参加者为（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.共产党、非党的右派进步分子和中间派",
+        "B.共产党、非党的左派进步分子和中间派",
+        "C.共产党、党的左派进步分子和中间派",
+        "D.共产党、党的右派进步分子和中间派"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-19",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东明确提出“马克思主义的中国化”命题是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.瓦窑堡会议",
+        "B.洛川会议",
+        "C.中共六届六中全会",
+        "D.中共七大"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-20",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党内反复出现“左”、“右”倾错误的思想认识根源是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.经验主义",
+        "B.宗派主义",
+        "C.教条主义",
+        "D.主观主义"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-21",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "将毛泽东思想规定为党的一切工作的指针的会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共六大",
+        "B.中共八大",
+        "C.遵义会议",
+        "D.中共七大"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-22",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "近代以来中华民族第一次取得反侵略完全胜利的战争是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中法战争",
+        "B.甲午中日战争",
+        "C.抗日战争",
+        "D.抗美援朝战争"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-23",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争取得完全胜利的重要标志是收回了（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.台湾和澎湖列岛",
+        "B.台湾和香港",
+        "C.香港和澎湖列岛",
+        "D.香港和西沙群岛"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-24",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1935年，日本帝国主义为扩大对华侵略而制造的事变是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.九一八事变",
+        "B.华北事变",
+        "C.卢沟桥事变",
+        "D.八一三事变"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-25",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1932年，日本侵略者在中国策划建立的傀儡政权是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.伪“华北自治政府”",
+        "B.伪“满洲国”",
+        "C.伪“中华民国维新政府”",
+        "D.伪“中华民国国民政府”"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-26",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1933年5月，在张家口领导成立察哈尔民众抗日同盟军的国民党爱国将领是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.蔡廷锴",
+        "B.蒋光鼐",
+        "C.冯玉祥",
+        "D.李济深"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-27",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1933年11月，国民党爱国将领蔡廷锴和蒋光鼐发动的抗日反蒋事件是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.宁都起义",
+        "B.福建事变",
+        "C.西安事变",
+        "D.二二八起义"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-28",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1935年，中国共产党提出抗日民族统一战线新政策的会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.瓦窑堡会议",
+        "B.洛川会议",
+        "C.中共六届六中全会",
+        "D.中共六届七中全会"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-29",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1937年，在淞沪会战中率领“八百壮士”孤守上海四行仓库的爱国将领是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.佟麟阁",
+        "B.赵登禹",
+        "C.谢晋元",
+        "D.戴安澜"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-第六章-single-30",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1938年10月广州、武汉失守后，中国抗日战争进入的阶段是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.战略防御阶段",
+        "B.战略相持阶段",
+        "C.战争反攻阶段",
+        "D.战争决战阶段"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-31",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1941年3月，在大后方抗日民主运动中诞生的民主党派是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国国民党临时行动委员会",
+        "B.中国民主政团同盟",
+        "C.中国民主促进会",
+        "D.中国民主建国会"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-32",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1938年，毛泽东发表的系统阐述抗日战争特点、前途和发展规律的著作是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《论反对日本帝国主义的策略》",
+        "B.《论持久战》",
+        "C.《抗日救国十大纲领》",
+        "D.《论联合政府》"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-第六章-single-33",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争全面爆发后，中国军队取得第一次重大胜利的战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.平型关战役",
+        "B.台儿庄战役",
+        "C.百团大战",
+        "D.昆仑关战役"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-第六章-single-34",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1940年，八路军对侵华日军发动大规模进攻的战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.平型关战役",
+        "B.雁门关战役",
+        "C.阳明堡战役",
+        "D.百团大战"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-第六章-single-35",
+      "type": "single",
+      "chapter": "第六章",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1945年4月，包括解放区代表董必武在内的中国代表团出席的国际会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "chapter_exercise",
+        "year": "",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.开罗会议",
+        "B.德黑兰会议",
+        "C.雅尔塔会议",
+        "D.旧金山会议"
+      ],
+      "answer": "D"
+    }
+  ]
+}

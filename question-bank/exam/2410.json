@@ -1,0 +1,690 @@
+{
+  "meta": {
+    "subjectCode": "15043",
+    "subject": "中国近现代史纲要",
+    "kind": "exam",
+    "year": "2410",
+    "version": "1.0.0",
+    "generatedAt": "2026-09-28T14:59:01.784860+00:00"
+  },
+  "questions": [
+    {
+      "id": "15043-2410-single-1",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "清王朝的统治由盛转衰是在（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.乾隆朝后期",
+        "B.嘉庆朝后期",
+        "C.咸丰草后期",
+        "D.同治朝后期"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-single-2",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "19世纪，向中国大肆走私鸦片的主要国家是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.美国",
+        "B.英国",
+        "C.法国",
+        "D.俄国"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-3",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "日本迫使清朝政府签订的割让台湾的不平等条约是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《南京条约》",
+        "B.《天津条约》",
+        "C.《马关条约》",
+        "D.《辛丑条约》"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-4",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "第一次鸦片战争时期，发生的人民群众大规模反侵略武装斗争是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.义和团抗击八国联军的斗争",
+        "B.太平天国抗击洋枪队的斗争",
+        "C.台湾人民抗击日本侵略者的斗争",
+        "D.三元里人民抗英斗争"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-5",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "鸦片战争后编纂《海国图志》，提出“师夷长技以制夷”思想主张的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.林则徐",
+        "B.魏源",
+        "C.龚自珍",
+        "D.郑观应"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-6",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "20世纪初，章炳麟撰写的歌颂革命是“启迪明智，除旧布新”的良药的著作是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.《驳康有为论革命书》",
+        "B.《中国问题的真解决》",
+        "C.《警世钟》",
+        "D.《猛回头》"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-single-7",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1904年至1905年，为争夺在华利益而在中国东北进行战争的帝国主义国家是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.日本、美国",
+        "B.英国、俄国",
+        "C.日本、俄国",
+        "D.英国、法国"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-8",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1919年爆发的五四运动的直接导火线是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.北洋军阀接受日本提出的“二十一条”",
+        "B.北洋军阀与日本签订“西原借款”合同",
+        "C.华盛顿会议上中国外交的受挫",
+        "D.巴黎和会上中国外交的失败"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-9",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1921年9月，在浙江省萧山县衙前村组织成立中国第一个农民协会的是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.沈定一",
+        "B.澎湃",
+        "C.阮萧山",
+        "D.毛泽东"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-single-10",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1927年，中共八七会议确定的总方针是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.推翻北洋军阀的统治",
+        "B.开展农民根据地建设",
+        "C.开展土地革命和武装斗争",
+        "D.建立工农民主统一战线"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-11",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1930年8月，由邓演达领导成立的中间党派是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国国民党革命委员会",
+        "B.中国国民党临时行动委员会",
+        "C.中华职业教育社",
+        "D.中国青年党"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-12",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1947年12月1日正式成立的民主党派是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中国农工民主党",
+        "B.中国民主建国会",
+        "C.九三学社",
+        "D.台湾民主自治同盟"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-13",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国人民解放军在1948年9月12日至11月2日进行的重大战役是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.平津战役",
+        "B.淮海战役",
+        "C.渡江战役",
+        "D.辽沈战役"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-14",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1951年，中国大陆实现统一的标志是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.西藏和平解放",
+        "B.宁夏和平解放",
+        "C.新疆和平解放",
+        "D.青海解放"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-single-15",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党在1951年底至1952年春开展的运动是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.肃反运动",
+        "B.“五反”运动",
+        "C.“三反”运动",
+        "D.社会主义教育运动"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-16",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "为进行有计划的经济建设，我国开始实施发展国民经济第一个五年计划的时间是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.1950年",
+        "B.1951年",
+        "C.1952年",
+        "D.1953年"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-17",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国共产党在过渡时期实施了“一化三改”的总路线，其中“一化”是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.实现国家社会主义工业化",
+        "B.实现农业现代化",
+        "C.实现科技现代化",
+        "D.实现国防现代化"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-single-18",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "在我国农业合作化过程中，具有社会主义萌芽性质的经济组织形式是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.变工队",
+        "B.初级生产合作社",
+        "C.互助组",
+        "D.高级生产合作社"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-19",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "揭开我国社会主义改革开放序幕的重要会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共十一大",
+        "B.中共十一届三中全会",
+        "C.中共十二大",
+        "D.中共十二届三中全会"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-20",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "1988年，我国决定建立的经济特区是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.汕头经济特区",
+        "B.厦门经济特区",
+        "C.深圳经济特区",
+        "D.海南经济特区"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-21",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十三大正式制定的社会主义现代化建设发展战略是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.“两步走”",
+        "B.“两个飞跃”",
+        "C.“两个大局”",
+        "D.“三步走”"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15043-2410-single-22",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "将建立社会主义市场经济体制确立为我国经济体制改革目标的会议是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.中共十二大",
+        "B.中共十四大",
+        "C.中共十六大",
+        "D.中共十七大"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-23",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十七大明确提出，科学发展观的核心是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.统筹兼顾",
+        "B.以人为本",
+        "C.全面协调可持续",
+        "D.发展"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15043-2410-single-24",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2014年10月，《中共中央关于全面推进依法治国若干问题的重要决议》指出，中国特色社会主义法治道路的核心要义是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.实行全过程人民民主",
+        "B.实行共同富裕",
+        "C.坚持党的领导",
+        "D.坚持公平正义"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "15043-2410-single-25",
+      "type": "single",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "2017年，中国的外汇储备量在世界上的排位是（ ）",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "options": [
+        "A.第一位",
+        "B.第二位",
+        "C.第三位",
+        "D.第四位"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "15043-2410-short_answer-26",
+      "type": "short_answer",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "辛亥革命时期资产阶级革命派的骨干力量。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "资产阶级革命派的骨干是一批资产阶级、小资产阶级知识分子。这个知识分子群是随着19世纪末20世纪初清政府新学堂、派留学生而逐渐形成的。他们接触到近代西方资本主义的思想文化，深感到民族危机的加深，在群众斗争的推动下，走向了清政府的对立面，开始探索救国救民的新道路。"
+    },
+    {
+      "id": "15043-2410-short_answer-2",
+      "type": "short_answer",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中国早期信仰马克思主义的三类代表人物。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "（1）五四运动前新文化运动的精神领袖，其代表是李大钊、陈独秀。\n（2）五四运动中的左翼骨干，其代表是毛泽东、杨匏安、蔡和森、周恩来等。\n（3）一部分原中国同盟会会员、辛亥革命时期的活动家，以董必武、吴玉章、林伯渠等为代表。"
+    },
+    {
+      "id": "15043-2410-short_answer-3",
+      "type": "short_answer",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中华苏维埃共和国实行的各级工农兵代表大会制度。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "中华苏维埃共和国实行各级工农兵代表大会制度。先由苏维埃共和国公民直接选举产生乡工农兵代表大会代表，召开乡工农兵代表大会，选举产生乡苏维埃政府组成人员；在此基础上，逐级召开区、县、省和全国工农兵代表大会，选举产生区、县、省和全国苏维埃政府。各级苏维埃政府广泛吸收工农群众代表参加政权管理，行使当家作主的权利。"
+    },
+    {
+      "id": "15043-2410-short_answer-4",
+      "type": "short_answer",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "抗日战争胜利后美国实施的扶蒋反共政策。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "美国继续采取自中国抗战后期就已确立的扶蒋反共政策。这一政策包含两个方面:一方面，在形势对国民党不利时，力促国共两党进行和平谈判，以期用和平手段诱骗中共向国民党投降，使美国不战而控制全中国:另一方面，从各方面大力加强国民党的力量，一旦和谈目的不能实现，便帮助国民党与中共决战，以期用武力打败中共，使中国成为美国的附庸。因此，无论美国采取何种手法扶蒋反共，中国共产党和中国人民都将面临两个前途、两种命运决战的严峻考验。"
+    },
+    {
+      "id": "15043-2410-short_answer-5",
+      "type": "short_answer",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "中共十九大确定的决胜全面建成小康社会、开启全面建设社会主义现代化国家新征程的目标。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "（1）2017年10月18日至24日，中国共产党第十九次全国代表大会在北京举行。"
+    },
+    {
+      "id": "15043-2410-essay-31",
+      "type": "essay",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "太平天国农民战争的历史意义。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "(1)它沉重打击了封建统治阶级，强烈撼动了清政府的统治根基。太平天国起义坚持了14年之久，革命势力扩展到18个省，规模大，时间长，影响深，加速了清王朝的衰败过程。\n(2)它是中国旧式农民战争最高峰，具有不同于以往农民战争的新的历史特点。太平天国建立了自己的政权，提出《天朝田亩制度》，比较完整地表达农民对土地的渴望。《资政新篇》是中国近代史上第一个具有资本主义色彩的方案，反映出太平天国新的历史特点。\n(3)太平天国对孔子和儒家经典予以严厉批判，在一定程度上削弱了封建统治的精神支柱。\n(4)太平天国起义还有力地打击了外国侵略势力。太平天国将领们拒绝不平等条约严禁鸦片贸易，与外国军队进行了英勇斗争。第五，太平天国起义鼓舞和推动了当时的亚洲民族解放运动，冲击了西方殖民主义在亚洲的统治。"
+    },
+    {
+      "id": "15043-2410-essay-2",
+      "type": "essay",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "毛泽东在《论持久战》中关于“抗日战争是持久战”“最后战争胜利属于中国”的论述。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "1938年5月至6月间，毛泽东发表《论持久战》，总结抗战10个月来的经验，集中全党智慧，系统地阐述了抗日战争的特点、前途和发展规律，阐明了持久抗战的总方针。毛泽东指出，中日战争不是任何别的战争，乃是半殖民地半封建的中国和帝国主义的日本之间在20世纪30年代进行的一个决死的战争。全部问题的根据就在这里。中日双方存在着互相矛盾的四个特点:敌强我弱，敌小我大，敌退步我进步，敌寡助我多助。一方面，日本是强国，中国是弱国，强国弱国的对比，决定了抗日战争只能是持久战。另一方面，日本是小国，发动的是退步的、野蛮的侵略战争，在国际上失道寡助:而中国是大国，进行的是进步的、正义的反侵略战争，在国际上得道多助。中国已经有了代表中华民族和中国人民根本利益的、政治上成熟的共产党及其领导的人民军队和抗日根据地。因此，最后胜利又将是属于中国的。"
+    },
+    {
+      "id": "15043-2410-essay-3",
+      "type": "essay",
+      "chapter": "未分类",
+      "knowledgePoint": "",
+      "difficulty": 2,
+      "stem": "改革开放前中国社会主义建设取得的主要成就。",
+      "explanation": "",
+      "source": {
+        "kind": "exam",
+        "year": "2410",
+        "file": ""
+      },
+      "tags": [],
+      "referenceAnswer": "(1)独立的、比较完整的工业体系和国民经济体系的基本建立;\n(2)人民生活水平的提高与文化、医疗、科技事业的发展;\n(3)国际地位的提高与国际环境的改善。"
+    }
+  ]
+}
