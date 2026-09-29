@@ -41,3 +41,7 @@ desktop.ini
 # ===== 其他 =====
 *.local
 coverage/
+
+# ===== 微信开发者工具 =====
+# 开发者工具生成的私有配置（含个人 appid 选择、编译条件等，不入库）
+project.private.config.json
