@@ -121,7 +121,7 @@
 
 ### 4.2 关键技术点
 
-- **框架**：Taro 3.x + React + TypeScript。
+- **框架**：Taro 4.x + React + TypeScript。
 - **状态管理**：优先用轻量方案（Zustand 或 Taro 内置）；MVP 数据量小，避免过度设计。
 - **UI**：优先 Taro UI / NutUI（React 版）或自写组件，保证小程序端渲染正确。
 - **包体与子包**：微信主包 ≤ 2MB；题库 JSON 按章节拆分为**分包**，首期纯文字题量可控，预留分包扩展空间。

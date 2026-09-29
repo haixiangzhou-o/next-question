@@ -6,7 +6,11 @@
 
 ## 项目状态
 
-🚧 计划阶段 —— 详见 [PLAN.md](./PLAN.md)，尚未开始编码。
+- ✅ **M1 题库加工**：已完成结构化题库（604 题 = 4 套真题 132 + 10 章章节练习 286 + 串讲笔记 186），校验通过，真题已按章节归类。
+- ✅ **M0 初始化**：Taro 4.x + React + TypeScript 工程已搭建，含中/英文 i18n 切换（空壳可运行）。
+- ⏳ **M2–M5**：刷题核心、组卷考试、错题/收藏/统计/打卡、打磨发布（待做）。
+
+> 详细计划见 [PLAN.md](./PLAN.md)。
 
 ## 核心功能（MVP）
 
@@ -22,7 +26,7 @@
 
 | 类别 | 选型 |
 | --- | --- |
-| 框架 | Taro 3.x + React + TypeScript |
+| 框架 | Taro 4.x + React + TypeScript |
 | 后端 | 无（MVP 纯本地）；二期接入微信云开发 |
 | 状态管理 | Zustand 或 Taro 内置（轻量） |
 | UI | Taro UI / NutUI（React）或自写组件 |
@@ -74,7 +78,19 @@ next-question/
 
 ## 快速开始
 
-> 待 M0 初始化完成后补充安装、编译、预览与发布步骤。
+```bash
+# 安装依赖（pnpm）
+pnpm install
+
+# 编译微信小程序（产物在 dist/，用微信开发者工具打开项目根目录预览）
+pnpm build:weapp
+
+# 开发模式（监听变更）
+pnpm dev:weapp
+
+# 编译 H5（浏览器预览，产物在 dist/）
+pnpm build:h5
+```
 
 ## 文档
 
