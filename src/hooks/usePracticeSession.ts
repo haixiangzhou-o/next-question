@@ -100,7 +100,9 @@ export function usePracticeSession(options: PracticeOptions) {
   const prev = useCallback(() => dispatch({ type: 'prev' }), [])
 
   const restart = useCallback(() => {
-    dispatch({ type: 'restart', questions: buildPracticeQuestions(questionRepository, options) })
+    // 错题重做模式重启时重新读取最新错题列表（作答后错题可能已移除）
+    const ids = options.mode === 'wrong' ? userDataRepository.snapshot().wrongBook : options.ids
+    dispatch({ type: 'restart', questions: buildPracticeQuestions(questionRepository, { ...options, ids }) })
   }, [options.mode, options.chapter, options.type, options.ids])
 
   const current = state.questions[state.index]

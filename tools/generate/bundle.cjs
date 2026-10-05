@@ -80,6 +80,7 @@ function validateQuestion(q, loc) {
   if (q.type === 'single') {
     if (!Array.isArray(q.options) || q.options.length < 2) errors.push(`${loc} single 缺 options 或少于 2 项`)
     if (!q.answer) errors.push(`${loc} single 缺 answer`)
+    else if (!/^[A-Z]$/.test(q.answer)) errors.push(`${loc} single answer 非法: ${q.answer}`)
   } else {
     if (!q.referenceAnswer) errors.push(`${loc} ${q.type} 缺 referenceAnswer`)
   }
