@@ -3,7 +3,7 @@
  * - 状态：题目列表、当前题号、作答、判分结果、参考答案展开、是否结束
  * - 副作用：提交/自评时通过 userDataRepository 持久化到本机
  */
-import { useCallback, useMemo, useReducer } from 'react'
+import { useCallback, useMemo, useReducer, useRef } from 'react'
 import type { Question } from '../types/question'
 import { questionRepository, userDataRepository } from '../repositories'
 import { buildPracticeQuestions, judgeObjective, type PracticeOptions } from '../services/practice'
@@ -62,18 +62,28 @@ function reducer(state: SessionState, action: Action): SessionState {
 export function usePracticeSession(options: PracticeOptions) {
   const [state, dispatch] = useReducer(reducer, options, initSession)
 
+  // 每日首次作答时打卡一次
+  const checkInRef = useRef(false)
+  const ensureCheckIn = useCallback(() => {
+    if (!checkInRef.current) {
+      checkInRef.current = true
+      userDataRepository.checkInToday()
+    }
+  }, [])
+
   const select = useCallback((id: string, answer: string | string[]) => {
     dispatch({ type: 'select', id, answer })
   }, [])
 
   /** 提交客观题作答并判分，返回是否正确 */
   const submit = useCallback((id: string, answer: string | string[]): boolean => {
+    ensureCheckIn()
     const q = questionRepository.getById(id)
     const correct = q ? judgeObjective(q, answer) : false
     dispatch({ type: 'submit', id, result: correct })
     userDataRepository.recordAnswer(id, answer, correct)
     return correct
-  }, [])
+  }, [ensureCheckIn])
 
   const reveal = useCallback((id: string) => {
     dispatch({ type: 'reveal', id })
@@ -81,16 +91,17 @@ export function usePracticeSession(options: PracticeOptions) {
 
   /** 主观题自评掌握/未掌握 */
   const assess = useCallback((id: string, mastered: boolean) => {
+    ensureCheckIn()
     dispatch({ type: 'assess', id, mastered })
     userDataRepository.recordMemorization(id, mastered)
-  }, [])
+  }, [ensureCheckIn])
 
   const next = useCallback(() => dispatch({ type: 'next' }), [])
   const prev = useCallback(() => dispatch({ type: 'prev' }), [])
 
   const restart = useCallback(() => {
     dispatch({ type: 'restart', questions: buildPracticeQuestions(questionRepository, options) })
-  }, [options.mode, options.chapter, options.type])
+  }, [options.mode, options.chapter, options.type, options.ids])
 
   const current = state.questions[state.index]
   const total = state.questions.length

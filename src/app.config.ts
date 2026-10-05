@@ -6,7 +6,10 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/practice/index',
     'pages/exam/index',
-    'pages/history/index'
+    'pages/history/index',
+    'pages/wrongbook/index',
+    'pages/favorites/index',
+    'pages/stats/index'
   ],
   window: {
     backgroundTextStyle: 'light',

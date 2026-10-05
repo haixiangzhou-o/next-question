@@ -41,6 +41,28 @@
   color: #8a94a6;
 }
 
+.checkin {
+  background: #fffbeb;
+  border: 2px solid #fde68a;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+
+.checkin-streak {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  color: #92400e;
+}
+
+.checkin-hint {
+  display: block;
+  margin-top: 6px;
+  font-size: 22px;
+  color: #b45309;
+}
+
 .modes {
   display: flex;
   flex-direction: column;

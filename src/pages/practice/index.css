@@ -40,6 +40,15 @@
   border-radius: 999px;
 }
 
+.fav-tag {
+  font-size: 22px;
+  color: #f59e0b;
+  background: #fffbeb;
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-left: auto;
+}
+
 .stem {
   display: block;
   font-size: 34px;

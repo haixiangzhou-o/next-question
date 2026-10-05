@@ -5,7 +5,7 @@
 import type { Question, QuestionType } from '../types/question'
 import type { QuestionQuery, QuestionRepository } from '../repositories/QuestionRepository'
 
-export type PracticeMode = 'sequential' | 'random' | 'targeted' | 'memorize'
+export type PracticeMode = 'sequential' | 'random' | 'targeted' | 'memorize' | 'wrong'
 
 export interface PracticeOptions {
   mode: PracticeMode
@@ -13,6 +13,8 @@ export interface PracticeOptions {
   chapter?: string
   /** 题型范围（专项可选） */
   type?: QuestionType
+  /** 指定题目 id（错题重做等，mode=wrong 时使用） */
+  ids?: string[]
 }
 
 /** Fisher-Yates 洗牌，返回新数组 */
@@ -48,6 +50,9 @@ function sortByChapter(qs: Question[], repo: QuestionRepository): Question[] {
 
 /** 根据练习模式与范围构建题目列表 */
 export function buildPracticeQuestions(repo: QuestionRepository, options: PracticeOptions): Question[] {
+  if (options.mode === 'wrong') {
+    return options.ids ? repo.getByIds(options.ids) : []
+  }
   switch (options.mode) {
     case 'random': {
       const query: QuestionQuery = options.chapter ? { chapters: [options.chapter] } : {}

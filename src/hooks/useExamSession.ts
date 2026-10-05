@@ -101,6 +101,15 @@ function reducer(state: ExamState, action: Action): ExamState {
 export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
   const [state, dispatch] = useReducer(reducer, config, initExam)
 
+  // 每日首次作答时打卡一次
+  const checkInRef = useRef(false)
+  const ensureCheckIn = useCallback(() => {
+    if (!checkInRef.current) {
+      checkInRef.current = true
+      userDataRepository.checkInToday()
+    }
+  }, [])
+
   // 倒计时
   useEffect(() => {
     if (state.submitted) return
@@ -140,17 +149,19 @@ export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
   }, [])
 
   const submit = useCallback((id: string, answer: string | string[]): boolean => {
+    ensureCheckIn()
     const q = questionRepository.getById(id)
     const correct = q ? judgeObjective(q, answer) : false
     dispatch({ type: 'submit', id, result: correct })
     return correct
-  }, [])
+  }, [ensureCheckIn])
 
   const reveal = useCallback((id: string) => dispatch({ type: 'reveal', id }), [])
 
   const assess = useCallback((id: string, mastered: boolean) => {
+    ensureCheckIn()
     dispatch({ type: 'assess', id, mastered })
-  }, [])
+  }, [ensureCheckIn])
 
   const next = useCallback(() => dispatch({ type: 'next' }), [])
   const prev = useCallback(() => dispatch({ type: 'prev' }), [])

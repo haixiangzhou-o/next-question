@@ -1,0 +1,84 @@
+/* 错题本 / 收藏夹 共享组件样式（QuestionListItem + 筛选 chips） */
+.q-item {
+  background: #fff;
+  border: 2px solid #eef0f4;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.q-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.q-tag {
+  font-size: 22px;
+  color: #3b82f6;
+  background: #eef4ff;
+  padding: 4px 14px;
+  border-radius: 999px;
+}
+
+.q-stem {
+  display: block;
+  font-size: 30px;
+  line-height: 1.6;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.q-answer {
+  display: block;
+  font-size: 26px;
+  color: #22c55e;
+  margin-bottom: 12px;
+}
+
+.q-ref {
+  display: block;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
+
+.q-action {
+  margin: 0;
+  height: 64px;
+  line-height: 64px;
+  font-size: 26px;
+  border-radius: 12px;
+  color: #ef4444;
+  background: #fef2f2;
+  padding: 0 24px;
+  width: auto;
+  display: inline-block;
+}
+
+.q-action::after {
+  border: none;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  font-size: 24px;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 8px 20px;
+  border-radius: 999px;
+}
+
+.chip.active {
+  color: #fff;
+  background: #3b82f6;
+}

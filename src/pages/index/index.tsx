@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { View, Text, Button } from '@tarojs/components'
-import { navigateTo, setNavigationBarTitle } from '@tarojs/taro'
+import { navigateTo, setNavigationBarTitle, useDidShow } from '@tarojs/taro'
 import { useI18n } from '../../locales/I18nProvider'
-import { questionRepository } from '../../repositories'
+import { questionRepository, userDataRepository } from '../../repositories'
 import type { PracticeMode } from '../../services/practice'
 import './index.css'
 
@@ -10,10 +10,13 @@ export default function Index() {
   const { lang, t, setLang } = useI18n()
   const chapters = questionRepository.listChapters()
   const total = questionRepository.total
+  const [streak, setStreak] = useState(() => userDataRepository.getCheckIn().streak)
 
   useEffect(() => {
     setNavigationBarTitle({ title: t('app.title') })
   }, [lang, t])
+
+  useDidShow(() => setStreak(userDataRepository.getCheckIn().streak))
 
   const go = (mode: PracticeMode, chapter?: string) => {
     let url = `/pages/practice/index?mode=${mode}`
@@ -23,6 +26,9 @@ export default function Index() {
 
   const goExam = () => navigateTo({ url: '/pages/exam/index' })
   const goHistory = () => navigateTo({ url: '/pages/history/index' })
+  const goWrongbook = () => navigateTo({ url: '/pages/wrongbook/index' })
+  const goFavorites = () => navigateTo({ url: '/pages/favorites/index' })
+  const goStats = () => navigateTo({ url: '/pages/stats/index' })
 
   const toggle = () => setLang(lang === 'zh-CN' ? 'en-US' : 'zh-CN')
 
@@ -35,6 +41,11 @@ export default function Index() {
 
       <View className='summary'>
         <Text className='summary-text'>{t('home.totalPrefix')} {total} {t('home.questionsSuffix')}</Text>
+      </View>
+
+      <View className='checkin'>
+        <Text className='checkin-streak'>{t('home.streak')} {streak} {t('home.days')}</Text>
+        <Text className='checkin-hint'>{t('home.checkinHint')}</Text>
       </View>
 
       <View className='modes'>
@@ -67,6 +78,21 @@ export default function Index() {
             <Text>{c}</Text>
           </View>
         ))}
+      </View>
+
+      <View className='section'>
+        <Text className='section-title'>{t('home.study')}</Text>
+      </View>
+      <View className='modes'>
+        <View className='mode-card' onClick={goWrongbook}>
+          <Text className='mode-name'>{t('home.wrongbook')}</Text>
+        </View>
+        <View className='mode-card' onClick={goFavorites}>
+          <Text className='mode-name'>{t('home.favorites')}</Text>
+        </View>
+        <View className='mode-card' onClick={goStats}>
+          <Text className='mode-name'>{t('home.stats')}</Text>
+        </View>
       </View>
     </View>
   )

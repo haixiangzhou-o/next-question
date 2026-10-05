@@ -3,6 +3,8 @@ import { View, Text, Button } from '@tarojs/components'
 import { useRouter, navigateBack, showToast } from '@tarojs/taro'
 import { useI18n } from '../../locales/I18nProvider'
 import { usePracticeSession } from '../../hooks/usePracticeSession'
+import { useFavorite } from '../../hooks/useFavorite'
+import { userDataRepository } from '../../repositories'
 import type { PracticeMode } from '../../services/practice'
 import type { QuestionType } from '../../types/question'
 import './index.css'
@@ -34,13 +36,17 @@ export default function Practice() {
 
   const options = useMemo(() => {
     const mode = (router.params.mode as PracticeMode) || 'sequential'
+    if (mode === 'wrong') {
+      return { mode, ids: userDataRepository.snapshot().wrongBook }
+    }
     const rawChapter = router.params.chapter
     const chapter = rawChapter ? safeDecode(rawChapter) : undefined
-    return { mode, chapter } as { mode: PracticeMode; chapter?: string }
+    return { mode, chapter }
   }, [router.params.mode, router.params.chapter])
 
   const session = usePracticeSession(options)
   const { current, index, total, finished, answeredCount, correctCount } = session
+  const { fav, toggle: toggleFavorite } = useFavorite(current?.id)
 
   if (!current) {
     return (
@@ -115,6 +121,7 @@ export default function Practice() {
         <Text className='tag'>{t(TYPE_KEY[current.type])}</Text>
         <Text className='tag'>{current.chapter}</Text>
         <Text className='tag'>{t('practice.difficulty')} {current.difficulty}</Text>
+        <Text className='fav-tag' onClick={toggleFavorite}>{fav ? '★ ' : '☆ '}{t(fav ? 'practice.unfavorite' : 'practice.favorite')}</Text>
       </View>
 
       <Text className='stem'>{current.stem}</Text>
