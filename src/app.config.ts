@@ -3,7 +3,8 @@
 // 开启后模拟器/真机会报 "Component is not found in path 'comp'"。
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/index/index',
+    'pages/practice/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -25,6 +25,9 @@ raw_materials/*.doc/.docx/.pptx
    │ ④ generate/build.py          打包为 {meta, questions}
    ▼
 question-bank/exam/*.json 或 question-bank/chapters/*.json
+   │ ⑤ generate/bundle.cjs        合并 + 校验 + 归一化
+   ▼
+src/data/questions.ts（小程序打包用）
 ```
 
 ## 环境变量
@@ -79,6 +82,19 @@ python tools/generate/build.py -o question-bank/exam/2410.json --kind exam --yea
 # 章节
 python tools/generate/build.py -o question-bank/chapters/chapter-01.json --kind chapter_exercise work/ch01.questions.json
 ```
+
+### ⑤ 打包进小程序（bundle）
+
+把 `question-bank/` 下所有题库合并、逐题校验（id 唯一、字段完整、题型/答案匹配）、归一化空字段，生成小程序可直接 import 的 `src/data/questions.ts`：
+
+```bash
+node tools/generate/bundle.cjs
+# 或
+pnpm gen:data
+```
+
+- 该步骤已作为 `prebuild:weapp` / `predev:weapp` / `prebuild:h5` / `predev:h5` 的前置钩子，正常构建会自动重新生成。
+- 生成物 `src/data/questions.ts` 会提交进 git，切勿手动编辑。
 
 ## 文件清单（raw_materials）
 

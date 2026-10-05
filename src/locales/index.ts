@@ -3,7 +3,11 @@ import { zhCN } from './zh-CN'
 import { enUS } from './en-US'
 
 export type Locale = 'zh-CN' | 'en-US'
-export type Messages = typeof zhCN
+/**
+ * 界面文案表。使用 Record<string, string> 便于随功能自由增删 key，
+ * 缺 key 时 t() 回退为 key 本身，避免 locale 文件不同步导致编译失败。
+ */
+export type Messages = Record<string, string>
 
 const STORAGE_KEY = 'app_language'
 
@@ -32,6 +36,6 @@ export function setLanguage(lang: Locale): void {
   Taro.setStorageSync(STORAGE_KEY, lang)
 }
 
-export function translate(lang: Locale, key: keyof Messages): string {
+export function translate(lang: Locale, key: string): string {
   return locales[lang][key] ?? String(key)
 }
