@@ -21,6 +21,9 @@ export default function Index() {
     navigateTo({ url })
   }
 
+  const goExam = () => navigateTo({ url: '/pages/exam/index' })
+  const goHistory = () => navigateTo({ url: '/pages/history/index' })
+
   const toggle = () => setLang(lang === 'zh-CN' ? 'en-US' : 'zh-CN')
 
   return (
@@ -44,6 +47,13 @@ export default function Index() {
         <View className='mode-card' onClick={() => go('memorize')}>
           <Text className='mode-name'>{t('home.memorize')}</Text>
           <Text className='mode-hint'>{t('home.subjectiveHint')}</Text>
+        </View>
+        <View className='mode-card exam-card' onClick={goExam}>
+          <Text className='mode-name'>{t('home.exam')}</Text>
+          <Text className='mode-hint'>{t('home.examHint')}</Text>
+        </View>
+        <View className='mode-card' onClick={goHistory}>
+          <Text className='mode-name'>{t('home.history')}</Text>
         </View>
       </View>
 

@@ -6,7 +6,7 @@ export const bankMeta: BankMeta = {
   "subjectCode": "15043",
   "subject": "中国近现代史纲要",
   "version": "1.0.0",
-  "generatedAt": "2026-10-05T10:14:46.080Z",
+  "generatedAt": "2026-10-05T10:26:19.244Z",
   "sourceFiles": [
     "question-bank/exam/2410.json",
     "question-bank/exam/2504.json",

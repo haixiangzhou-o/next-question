@@ -69,6 +69,11 @@
   color: #8a94a6;
 }
 
+.mode-card.exam-card {
+  border-color: #3b82f6;
+  background: #f0f7ff;
+}
+
 .section {
   margin-bottom: 20px;
 }

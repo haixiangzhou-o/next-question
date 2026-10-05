@@ -1,0 +1,87 @@
+.history {
+  padding: 24px 24px 60px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.empty-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 160px;
+}
+
+.empty {
+  font-size: 30px;
+  color: #8a94a6;
+  margin-bottom: 40px;
+}
+
+.list {
+  margin-bottom: 24px;
+}
+
+.record {
+  background: #fff;
+  border: 2px solid #eef0f4;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.record-main {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.record-score {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.record-total {
+  font-size: 26px;
+  color: #8a94a6;
+}
+
+.record-date {
+  font-size: 24px;
+  color: #8a94a6;
+}
+
+.record-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.detail-line {
+  font-size: 22px;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.btn {
+  width: 100%;
+  height: 88px;
+  line-height: 88px;
+  font-size: 30px;
+  border-radius: 16px;
+  color: #374151;
+  background: #f3f4f6;
+  margin: 0 0 16px;
+}
+
+.btn::after {
+  border: none;
+}
+
+.btn.clear {
+  color: #ef4444;
+  background: #fef2f2;
+}

@@ -4,7 +4,9 @@
 export default defineAppConfig({
   pages: [
     'pages/index/index',
-    'pages/practice/index'
+    'pages/practice/index',
+    'pages/exam/index',
+    'pages/history/index'
   ],
   window: {
     backgroundTextStyle: 'light',
