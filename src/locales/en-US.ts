@@ -75,4 +75,9 @@ export const enUS: Record<string, string> = {
   'stats.weak': 'Weak chapters',
   'stats.noWeak': 'No weak chapters yet',
   'stats.chapter': 'Chapter',
+  'stats.reset': 'Reset local data',
+  'stats.resetConfirm': 'Reset all local data? Practice progress, wrong book, favorites, check-in and exam history will be cleared and cannot be recovered.',
+  'stats.resetDone': 'Local data reset',
+  'list.showAnswer': 'Show answer',
+  'list.hideAnswer': 'Hide answer',
 }

@@ -46,6 +46,30 @@
   white-space: pre-wrap;
 }
 
+.q-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.q-reveal {
+  margin: 0;
+  height: 64px;
+  line-height: 64px;
+  font-size: 26px;
+  border-radius: 12px;
+  color: #3b82f6;
+  background: #eef4ff;
+  padding: 0 24px;
+  width: auto;
+  display: inline-block;
+}
+
+.q-reveal::after {
+  border: none;
+}
+
 .q-action {
   margin: 0;
   height: 64px;

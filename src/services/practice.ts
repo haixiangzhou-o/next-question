@@ -55,7 +55,8 @@ export function buildPracticeQuestions(repo: QuestionRepository, options: Practi
   }
   switch (options.mode) {
     case 'random': {
-      const query: QuestionQuery = options.chapter ? { chapters: [options.chapter] } : {}
+      const query: QuestionQuery = { types: ['single'] }
+      if (options.chapter) query.chapters = [options.chapter]
       return shuffle(repo.list(query))
     }
     case 'targeted': {
@@ -71,6 +72,6 @@ export function buildPracticeQuestions(repo: QuestionRepository, options: Practi
     }
     case 'sequential':
     default:
-      return sortByChapter(repo.list(), repo)
+      return sortByChapter(repo.list({ types: ['single'] }), repo)
   }
 }

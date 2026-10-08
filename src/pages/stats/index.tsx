@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { View, Text, Button } from '@tarojs/components'
-import { useDidShow, navigateBack } from '@tarojs/taro'
+import { useDidShow, navigateBack, showModal, showToast } from '@tarojs/taro'
 import { useI18n } from '../../locales/I18nProvider'
 import { questionRepository, userDataRepository } from '../../repositories'
 import { computeStats } from '../../services/stats'
@@ -15,6 +15,21 @@ export default function Stats() {
 
   const report = useMemo(() => computeStats(questionRepository, data.progress), [data])
   const accuracy = Math.round(report.accuracy * 100)
+
+  const resetData = () => {
+    showModal({
+      title: t('stats.reset'),
+      content: t('stats.resetConfirm'),
+      confirmText: t('stats.reset'),
+      cancelText: t('common.cancel'),
+      success: (res) => {
+        if (!res.confirm) return
+        userDataRepository.reset()
+        setData(userDataRepository.snapshot())
+        showToast({ title: t('stats.resetDone'), icon: 'none' })
+      },
+    })
+  }
 
   return (
     <View className='stats'>
@@ -61,6 +76,7 @@ export default function Stats() {
         ))}
       </View>
 
+      <Button className='btn danger' onClick={resetData}>{t('stats.reset')}</Button>
       <Button className='btn' onClick={() => navigateBack()}>{t('history.backHome')}</Button>
     </View>
   )

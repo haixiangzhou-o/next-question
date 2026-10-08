@@ -75,4 +75,9 @@ export const zhCN: Record<string, string> = {
   'stats.weak': '薄弱章节',
   'stats.noWeak': '暂无薄弱章节',
   'stats.chapter': '章节',
+  'stats.reset': '重置本地数据',
+  'stats.resetConfirm': '确定要重置所有本地数据吗？刷题进度、错题本、收藏、打卡和考试记录都将被清空，且无法恢复。',
+  'stats.resetDone': '已重置本地数据',
+  'list.showAnswer': '显示答案',
+  'list.hideAnswer': '隐藏答案',
 }

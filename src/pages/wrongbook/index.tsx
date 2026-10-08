@@ -61,7 +61,7 @@ export default function WrongBook() {
           <Button className='btn primary' onClick={redo}>{t('wrongbook.redo')}（{wrongIds.length}）</Button>
           {list.length === 0 && <Text className='empty'>{t('practice.empty')}</Text>}
           {list.map((q) => (
-            <QuestionListItem key={q.id} q={q} actionLabel={t('wrongbook.remove')} onAction={remove} />
+            <QuestionListItem key={q.id} q={q} actionLabel={t('wrongbook.remove')} onAction={remove} hideAnswer />
           ))}
         </View>
       )}
