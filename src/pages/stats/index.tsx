@@ -20,8 +20,6 @@ export default function Stats() {
     showModal({
       title: t('stats.reset'),
       content: t('stats.resetConfirm'),
-      confirmText: t('stats.reset'),
-      cancelText: t('common.cancel'),
       success: (res) => {
         if (!res.confirm) return
         userDataRepository.reset()
