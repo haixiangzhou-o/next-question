@@ -244,22 +244,99 @@ def parse_subjective(lines, year, base_idx, end_idx, mode):
 
 
 def parse_notes(text: str) -> list:
-    """解析串讲笔记：每个带题型标记的考点 → 一道 short_answer 题。
+    """解析串讲笔记：题型标记 + 各类数字标号标题 → short_answer 题。
 
-    题型标记形如 ［单选］ / [简答] / ［简答、论述］ / [论述题]，可能含全角/半角括号。
-    题干 = 考点描述（标记后文字），答案 = 后续知识点正文，题型存入 tags。
+    - 题型标记行（［单选］/[简答]/…）→ 题目（题干=标记后文字，答案=后续正文）
+    - 数字点号标题（1. 2. …）：若其子树不含题型标记（纯正文），则本身作为题目；
+      否则作为容器（其下的题型标记各自成题）
+    - 括号标题（（1）（2）…）：作为子标题成题，或作为答案枚举归入当前题
+    - 一级标题（一、二、…）与章节标题为容器
     """
     lines = [ln.rstrip() for ln in text.split('\n')]
     questions = []
     chapter = '未分类'
-    cur = None
+    cur = None  # {'kind': 'marker'|'heading', 'q': question}
     seq = 0
+    paren_content = False  # 当前题答案是否处于「（N）」枚举序列中
+    n_has_marker = False   # 当前数字点号标题子树内是否含题型标记
 
-    # 题型标记：行首为 [ 或 ［，内容含题型词
     mark_re = re.compile(r'^[\[［]([^\]］]*)[\]］]\s*(.*)$')
     type_words = ['单选', '多选', '简答', '论述', '判断', '选择', '问答']
+    major_re = re.compile(r'^[一二三四五六七八九十]+、')
+    numdot_re = re.compile(r'^\d{1,3}[.．]')
+    paren_re = re.compile(r'^[（(](\d{1,2})[）)]')
+    chapter_re = re.compile(r'^第[一二三四五六七八九十]+章')
 
-    for ln in lines:
+    # 提取时丢失「第X章」前缀的章标题 -> 章节名
+    orphan_chapters = {
+        '中华人民共和国的成立与中国社会主义建设道路的探索': '第八章',
+        '改革开放与中国特色社会主义的开创和发展': '第九章',
+    }
+
+    def is_marker_line(s: str) -> bool:
+        m = mark_re.match(s)
+        return bool(m and any(w in m.group(1) for w in type_words))
+
+    def new_note(stem: str, tags: list) -> dict:
+        nonlocal seq
+        seq += 1
+        return {
+            'id': f'15043-notes-{seq}',
+            'type': 'short_answer',
+            'chapter': chapter,
+            'knowledgePoint': '',
+            'difficulty': 2,
+            'stem': stem,
+            'explanation': '',
+            'source': {'kind': 'notes', 'year': '', 'file': '各章节串讲笔记（总复习）'},
+            'tags': tags,
+        }
+
+    def append_content(q: dict, s: str) -> None:
+        if q.get('referenceAnswer'):
+            q['referenceAnswer'] = (q['referenceAnswer'] + '\n' + s).strip()
+        else:
+            q['referenceAnswer'] = s
+
+    def finalize() -> None:
+        nonlocal cur
+        if cur is None:
+            return
+        q = cur['q']
+        if cur['kind'] == 'marker':
+            questions.append(q)
+        elif q.get('referenceAnswer'):
+            questions.append(q)  # 标题题：有正文才保留，否则视为容器
+        cur = None
+
+    def look_ahead_has_marker(start: int) -> bool:
+        """当前数字点号标题的子树（到下一个同级/更高级标题为止）是否含题型标记。"""
+        seen_content = False
+        for j in range(start + 1, len(lines)):
+            t = lines[j].strip()
+            if not t:
+                continue
+            if major_re.match(t) or numdot_re.match(t) or chapter_re.match(t) or t in orphan_chapters:
+                break
+            if is_marker_line(t):
+                m = mark_re.match(t)
+                rest = m.group(2).strip()
+                # 数字点号标题后先出现正文、再出现（N）编号的标记 → 该标记是同级条目（兄弟），非子项
+                if seen_content and paren_re.match(rest):
+                    break
+                return True
+            seen_content = True
+        return False
+
+    def split_inline(s: str):
+        """括号标题行 -> (题干, 内联答案)。去掉（N）前缀；冒号后有内容则拆出。"""
+        body = paren_re.sub('', s, count=1).strip()
+        col = re.search(r'[：:]', body)
+        if col and col.end() != len(body):
+            return (body[:col.start()].strip() or body), body[col.start() + 1:].strip()
+        return body, ''
+
+    for i, ln in enumerate(lines):
         s = ln.strip()
         if not s:
             continue
@@ -267,44 +344,94 @@ def parse_notes(text: str) -> list:
         # 章节标题
         m_ch = re.match(r'^第([一二三四五六七八九十]+)章\s*(.*)$', s)
         if m_ch:
+            finalize()
+            paren_content = False
+            n_has_marker = False
             chapter = '第' + m_ch.group(1) + '章'
             if m_ch.group(2):
                 chapter = chapter + ' ' + m_ch.group(2).strip()
-            cur = None
+            continue
+        if s in orphan_chapters:
+            finalize()
+            paren_content = False
+            n_has_marker = False
+            chapter = orphan_chapters[s]
+            continue
+
+        # 一级标题（容器，不构成题目）
+        if major_re.match(s):
+            finalize()
+            paren_content = False
+            n_has_marker = False
+            continue
+
+        # 数字点号标题：含题型标记 → 容器；纯正文 → 题目
+        if numdot_re.match(s):
+            finalize()
+            paren_content = False
+            n_has_marker = look_ahead_has_marker(i)
+            cur = None if n_has_marker else {'kind': 'heading', 'q': new_note(s, [])}
+            continue
+
+        # 括号标题 / 答案枚举
+        pm = paren_re.match(s)
+        if pm:
+            n = int(pm.group(1))
+            if paren_content:
+                if cur is not None:
+                    append_content(cur['q'], s)
+                continue
+            if cur is not None and cur['kind'] == 'marker':
+                if n == 1:
+                    # 开始当前题的「（N）」答案枚举
+                    append_content(cur['q'], s)
+                    paren_content = True
+                    continue
+                # n>1：作为子标题（题型标记题之后的下一个考点）
+                finalize()
+                paren_content = False
+                stem, inline = split_inline(s)
+                q = new_note(stem, [])
+                if inline:
+                    append_content(q, inline)
+                cur = {'kind': 'heading', 'q': q}
+                continue
+            # cur 为 None 或标题题
+            if n_has_marker:
+                finalize()
+                paren_content = False
+                stem, inline = split_inline(s)
+                q = new_note(stem, [])
+                if inline:
+                    append_content(q, inline)
+                cur = {'kind': 'heading', 'q': q}
+            else:
+                if cur is None:
+                    cur = {'kind': 'heading', 'q': new_note(s, [])}
+                append_content(cur['q'], s)
             continue
 
         # 题型标记行
-        m = mark_re.match(s)
-        if m:
+        if is_marker_line(s):
+            finalize()
+            paren_content = False
+            m = mark_re.match(s)
             tag_content = m.group(1)
             rest = m.group(2).strip()
-            has_type = any(w in tag_content for w in type_words)
-            if has_type:
-                # 结束上一题
-                # 提取 tags（拆分「简答、论述」等）
-                tags = []
-                for w in type_words:
-                    if w in tag_content:
-                        tags.append(w)
-                # 考点描述：去掉开头的（数字）序号
-                rest = re.sub(r'^[（(]\d*[）)]\s*', '', rest).strip()
-                stem = rest if rest else tag_content
-                seq += 1
-                cur = new_question('15043-notes', 'short_answer', stem, chapter)
-                cur['id'] = f'15043-notes-{seq}'
-                cur['source'] = {'kind': 'notes', 'year': '', 'file': '各章节串讲笔记（总复习）'}
-                cur['tags'] = tags
-                questions.append(cur)
+            tags = [w for w in type_words if w in tag_content]
+            # 考点描述：去掉开头的（数字）序号
+            rest = re.sub(r'^[（(]\d*[）)]\s*', '', rest).strip()
+            stem = rest or tag_content
+            cur = {'kind': 'marker', 'q': new_note(stem, tags)}
             continue
 
         # 正文 → 追加到当前题答案
         if cur is not None:
-            if cur.get('referenceAnswer'):
-                cur['referenceAnswer'] = (cur['referenceAnswer'] + '\n' + s).strip()
-            else:
-                cur['referenceAnswer'] = s
+            append_content(cur['q'], s)
 
-    # 兜底：无正文的考点（标记行本身即完整陈述），答案 = 考点描述
+    finalize()
+
+    # 兜底：无正文的考点，答案 = 题干
     for q in questions:
         if not q.get('referenceAnswer'):
             q['referenceAnswer'] = q['stem']
