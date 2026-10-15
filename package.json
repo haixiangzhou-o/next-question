@@ -11,10 +11,6 @@
   },
   "scripts": {
     "gen:data": "node tools/generate/bundle.cjs",
-    "prebuild:weapp": "node tools/generate/bundle.cjs",
-    "predev:weapp": "node tools/generate/bundle.cjs",
-    "prebuild:h5": "node tools/generate/bundle.cjs",
-    "predev:h5": "node tools/generate/bundle.cjs",
     "build:weapp": "taro build --type weapp",
     "dev:weapp": "taro build --type weapp --watch",
     "build:h5": "taro build --type h5",

@@ -5,10 +5,30 @@
 }
 
 .exam-top {
+  margin-bottom: 16px;
+}
+
+.exam-top-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.exam-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+}
+
+.clear-exit {
+  flex: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 22px;
+  font-size: 24px;
+  border-radius: 999px;
+  color: #8a94a6;
+  background: #f3f4f6;
 }
 
 .timer {
@@ -246,6 +266,15 @@
   color: #fff;
 }
 
+.btn.confirm-done {
+  margin: 8px 0 24px;
+}
+
+.btn.confirm-done.done {
+  background: #22c55e;
+  color: #fff;
+}
+
 .btn[disabled] {
   opacity: 0.4;
   color: #9ca3af;
@@ -384,7 +413,22 @@
   color: #3b82f6;
 }
 
-.report .btn {
+.review-your {
+  display: block;
+  margin-top: 6px;
+  font-size: 24px;
+  color: #ef4444;
+}
+
+.saved-note {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  color: #22c55e;
+  margin-bottom: 20px;
+}
+
+.report > .btn {
   width: 80%;
   flex: none;
   margin: 0 auto 20px;

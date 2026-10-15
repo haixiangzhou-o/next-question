@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { View, Text, Button } from '@tarojs/components'
 import { navigateBack, showModal } from '@tarojs/taro'
 import { useI18n } from '../../locales/I18nProvider'
@@ -21,7 +22,13 @@ function stripLetter(opt: string): string {
 export default function Exam() {
   const { t } = useI18n()
   const session = useExamSession()
-  const { current, index, total, submitted, result, remainingSeconds, autoSubmitted, questions, results } = session
+  const { current, index, total, submitted, result, remainingSeconds, autoSubmitted, questions, clearProgress } = session
+  const [saved, setSaved] = useState(false)
+
+  const clearAndExit = () => {
+    clearProgress()
+    navigateBack()
+  }
 
   const confirmSubmit = () => {
     showModal({
@@ -33,6 +40,16 @@ export default function Exam() {
         if (res.confirm) session.submitExam()
       },
     })
+  }
+
+  const saveResult = () => {
+    session.saveResult()
+    setSaved(true)
+  }
+
+  const restart = () => {
+    setSaved(false)
+    session.restart()
   }
 
   if (!current) {
@@ -75,21 +92,50 @@ export default function Exam() {
         <View className='review'>
           <Text className='review-title'>{t('exam.review')}</Text>
           {questions.map((q, i) => {
-            const answered = q.id in results
-            const mark = answered ? (results[q.id] ? '✓' : '✗') : '—'
+            if (q.type === 'single') {
+              const sel = session.answers[q.id] as string | undefined
+              const answered = sel != null
+              const correct = session.results[q.id] === true
+              return (
+                <View key={q.id} className='review-item'>
+                  <Text className={answered ? (correct ? 'mark ok' : 'mark bad') : 'mark'}>
+                    {i + 1}. {answered ? (correct ? '✓' : '✗') : '—'}
+                  </Text>
+                  <Text className='review-stem'>{q.stem}</Text>
+                  {answered && <Text className='review-your'>{t('exam.yourAnswer')}: {sel}</Text>}
+                  <Text className='review-answer'>{t('practice.answer')}: {q.answer}</Text>
+                </View>
+              )
+            }
+            const assessed = q.id in session.results
             return (
               <View key={q.id} className='review-item'>
-                <Text className={answered ? (results[q.id] ? 'mark ok' : 'mark bad') : 'mark'}>
-                  {i + 1}. {mark}
+                <Text className={assessed ? (session.results[q.id] ? 'mark ok' : 'mark bad') : 'mark'}>
+                  {i + 1}. {assessed ? (session.results[q.id] ? '✓' : '✗') : '—'}
                 </Text>
                 <Text className='review-stem'>{q.stem}</Text>
-                {q.type === 'single' && <Text className='review-answer'>{t('practice.answer')}: {q.answer}</Text>}
+                <View className='reference'>
+                  <Text className='label'>{t('practice.referenceAnswer')}</Text>
+                  <Text className='content'>{q.referenceAnswer}</Text>
+                </View>
+                <View className='assess'>
+                  <Button className='btn assess mastered' onClick={() => session.assess(q.id, true)}>
+                    {session.results[q.id] === true ? '✓ ' : ''}{t('practice.mastered')}
+                  </Button>
+                  <Button className='btn assess unmastered' onClick={() => session.assess(q.id, false)}>
+                    {session.results[q.id] === false ? '✗ ' : ''}{t('practice.unmastered')}
+                  </Button>
+                </View>
               </View>
             )
           })}
         </View>
 
-        <Button className='btn primary' onClick={session.restart}>{t('exam.restart')}</Button>
+        {!saved && (
+          <Button className='btn primary' onClick={saveResult}>{t('exam.saveResult')}</Button>
+        )}
+        {saved && <Text className='saved-note'>{t('exam.saved')}</Text>}
+        <Button className='btn primary' onClick={restart}>{t('exam.restart')}</Button>
         <Button className='btn' onClick={() => navigateBack()}>{t('practice.backHome')}</Button>
       </View>
     )
@@ -97,25 +143,14 @@ export default function Exam() {
 
   const isSingle = current.type === 'single'
   const selected = (session.answers[current.id] as string) || ''
-  const answered = current.id in session.results
-  const resultMark = session.results[current.id]
-  const revealed = session.revealed[current.id] === true
+  const subjectDone = session.subjectiveDone[current.id] === true
 
   const choose = (letter: string) => {
-    if (answered) return
     session.select(current.id, letter)
   }
 
-  const submit = () => {
-    if (!selected) return
-    session.submit(current.id, selected)
-  }
-
   const optionClass = (letter: string): string => {
-    if (!answered) return selected === letter ? 'option selected' : 'option'
-    if (letter === current.answer) return 'option correct'
-    if (selected === letter) return 'option wrong'
-    return 'option'
+    return selected === letter ? 'option selected' : 'option'
   }
 
   const danger = remainingSeconds < 60
@@ -123,8 +158,13 @@ export default function Exam() {
   return (
     <View className='exam'>
       <View className='exam-top'>
-        <Text className={danger ? 'timer danger' : 'timer'}>{t('exam.timeLeft')} {formatDuration(remainingSeconds)}</Text>
-        <Button className='btn submit-exam' onClick={confirmSubmit}>{t('exam.submit')}</Button>
+        <View className='exam-top-right'>
+          <Button className='btn clear-exit' onClick={clearAndExit}>{t('practice.clearExit')}</Button>
+        </View>
+        <View className='exam-bar'>
+          <Text className={danger ? 'timer danger' : 'timer'}>{t('exam.timeLeft')} {formatDuration(remainingSeconds)}</Text>
+          <Button className='btn submit-exam' onClick={confirmSubmit}>{t('exam.submit')}</Button>
+        </View>
       </View>
 
       <View className='progress-bar'>
@@ -154,49 +194,13 @@ export default function Exam() {
         </View>
       ) : (
         <View className='subjective'>
-          {!revealed && (
-            <Button className='btn reveal' onClick={() => session.reveal(current.id)}>
-              {t('practice.showAnswer')}
-            </Button>
-          )}
-          {revealed && (
-            <View>
-              <View className='reference'>
-                <Text className='label'>{t('practice.referenceAnswer')}</Text>
-                <Text className='content'>{current.referenceAnswer}</Text>
-              </View>
-              {!answered && (
-                <View className='assess'>
-                  <Button className='btn assess mastered' onClick={() => session.assess(current.id, true)}>
-                    {t('practice.mastered')}
-                  </Button>
-                  <Button className='btn assess unmastered' onClick={() => session.assess(current.id, false)}>
-                    {t('practice.unmastered')}
-                  </Button>
-                </View>
-              )}
-            </View>
-          )}
+          <Button
+            className={subjectDone ? 'btn confirm-done done' : 'btn confirm-done'}
+            onClick={() => session.confirmSubjective(current.id, !subjectDone)}
+          >
+            {subjectDone ? t('exam.answeredDone') : t('exam.confirmDone')}
+          </Button>
         </View>
-      )}
-
-      {isSingle && answered && (
-        <View className='feedback'>
-          <Text className={resultMark ? 'feedback-text correct' : 'feedback-text wrong'}>
-            {resultMark ? t('practice.correct') : t('practice.wrong')}
-          </Text>
-          <Text className='answer-line'>{t('practice.answer')}: {current.answer}</Text>
-          {current.explanation && (
-            <View className='explanation'>
-              <Text className='label'>{t('practice.explanation')}</Text>
-              <Text className='content'>{current.explanation}</Text>
-            </View>
-          )}
-        </View>
-      )}
-
-      {isSingle && !answered && (
-        <Button className='btn primary submit' disabled={!selected} onClick={submit}>{t('practice.submit')}</Button>
       )}
 
       <View className='footer'>

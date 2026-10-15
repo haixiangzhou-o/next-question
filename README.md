@@ -85,6 +85,9 @@ next-question/
 # 安装依赖（pnpm）
 pnpm install
 
+# 首次或题库（question-bank/）变更后，先重新生成题库文件
+pnpm gen:data
+
 # 编译微信小程序（产物在 dist/，用微信开发者工具打开项目根目录预览）
 pnpm build:weapp
 
@@ -94,6 +97,8 @@ pnpm dev:weapp
 # 编译 H5（浏览器预览，产物在 dist/）
 pnpm build:h5
 ```
+
+> 题库生成与编译已分离：`pnpm gen:data` 只从 `question-bank/` 重新生成 `src/data/questions.ts`；`build:weapp` / `dev:weapp` / `build:h5` / `dev:h5` 只负责编译，不再自动重新生成题库。
 
 ## 真机测试与提审清单（M5）
 

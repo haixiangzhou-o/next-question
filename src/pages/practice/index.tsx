@@ -45,8 +45,13 @@ export default function Practice() {
   }, [router.params.mode, router.params.chapter])
 
   const session = usePracticeSession(options)
-  const { current, index, total, finished, answeredCount, correctCount } = session
+  const { current, index, total, finished, answeredCount, correctCount, clearProgress } = session
   const { fav, toggle: toggleFavorite } = useFavorite(current?.id)
+
+  const clearAndExit = () => {
+    clearProgress()
+    navigateBack()
+  }
 
   if (!current) {
     return (
@@ -112,6 +117,9 @@ export default function Practice() {
 
   return (
     <View className='practice'>
+      <View className='practice-top'>
+        <Button className='btn clear-exit' onClick={clearAndExit}>{t('practice.clearExit')}</Button>
+      </View>
       <View className='progress-bar'>
         <View className='fill' style={{ width: `${((index + 1) / total) * 100}%` }} />
       </View>

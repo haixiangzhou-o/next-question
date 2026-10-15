@@ -93,7 +93,7 @@ node tools/generate/bundle.cjs
 pnpm gen:data
 ```
 
-- 该步骤已作为 `prebuild:weapp` / `predev:weapp` / `prebuild:h5` / `predev:h5` 的前置钩子，正常构建会自动重新生成。
+- 生成与编译已分离：`build:weapp` / `dev:weapp` / `build:h5` / `dev:h5` 不再自动重新生成；仅在 `question-bank/` 有变更时手动执行 `pnpm gen:data`。
 - 生成物 `src/data/questions.ts` 会提交进 git，切勿手动编辑。
 
 ## 文件清单（raw_materials）

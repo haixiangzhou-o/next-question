@@ -1,12 +1,12 @@
 /**
  * 模拟考试会话 hook：useReducer + setInterval 倒计时。
- * - 倒计时归零自动交卷
- * - 交卷后计分并把考试记录写入 userDataRepository
+ * - 答题阶段只收集答案（单选选字母、主观题确认答完），不判分、不展示结果
+ * - 交卷时自动判分单选题，主观题在成绩报告里自评「掌握/未掌握」计入总分
+ * - 考试进度写入 Storage，退出重进恢复；交卷后清除，下次重新组卷
  */
 import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react'
 import type { Question } from '../types/question'
 import { questionRepository, userDataRepository } from '../repositories'
-import { judgeObjective } from '../services/practice'
 import {
   buildExamPaper,
   flattenPaper,
@@ -16,14 +16,18 @@ import {
   type ExamPaper,
   type ExamResult,
 } from '../services/exam'
+import { clearExamSession, loadExamSession, saveExamSession } from '../services/session'
 
 interface ExamState {
   paper: ExamPaper
   questions: Question[]
   index: number
+  /** 单选题已选答案（字母） */
   answers: Record<string, string | string[]>
+  /** 主观题是否已「确认答完」 */
+  subjectiveDone: Record<string, boolean>
+  /** 判分结果：单选题交卷时自动判分；主观题在报告中自评 */
   results: Record<string, boolean>
-  revealed: Record<string, boolean>
   remainingSeconds: number
   submitted: boolean
   autoSubmitted: boolean
@@ -31,8 +35,7 @@ interface ExamState {
 
 type Action =
   | { type: 'select'; id: string; answer: string | string[] }
-  | { type: 'submit'; id: string; result: boolean }
-  | { type: 'reveal'; id: string }
+  | { type: 'confirmSubjective'; id: string; done: boolean }
   | { type: 'assess'; id: string; mastered: boolean }
   | { type: 'next' }
   | { type: 'prev' }
@@ -41,29 +44,62 @@ type Action =
   | { type: 'submitExam' }
   | { type: 'restart'; paper: ExamPaper; remainingSeconds: number }
 
-function initExam(config: ExamConfig): ExamState {
-  const paper = buildExamPaper(questionRepository, config)
+function freshExamState(paper: ExamPaper, remainingSeconds: number): ExamState {
   return {
     paper,
     questions: flattenPaper(paper),
     index: 0,
     answers: {},
+    subjectiveDone: {},
     results: {},
-    revealed: {},
-    remainingSeconds: config.durationSeconds,
+    remainingSeconds,
     submitted: false,
     autoSubmitted: false,
   }
+}
+
+/** 交卷时对单选题自动判分（未作答记为错误） */
+function gradeSingles(paper: ExamPaper, answers: Record<string, string | string[]>): Record<string, boolean> {
+  const results: Record<string, boolean> = {}
+  for (const q of paper.singles) {
+    results[q.id] = answers[q.id] === q.answer
+  }
+  return results
+}
+
+function initExam(config: ExamConfig): ExamState {
+  const saved = loadExamSession()
+  if (saved) {
+    const paper: ExamPaper = {
+      singles: questionRepository.getByIds(saved.singles),
+      shorts: questionRepository.getByIds(saved.shorts),
+      essays: questionRepository.getByIds(saved.essays),
+    }
+    const questions = flattenPaper(paper)
+    const totalIds = saved.singles.length + saved.shorts.length + saved.essays.length
+    if (questions.length > 0 && questions.length === totalIds) {
+      return {
+        paper,
+        questions,
+        index: Math.min(Math.max(saved.index, 0), questions.length - 1),
+        answers: saved.answers,
+        subjectiveDone: saved.subjectiveDone,
+        results: {},
+        remainingSeconds: Math.max(0, saved.remainingSeconds),
+        submitted: false,
+        autoSubmitted: false,
+      }
+    }
+  }
+  return freshExamState(buildExamPaper(questionRepository, config), config.durationSeconds)
 }
 
 function reducer(state: ExamState, action: Action): ExamState {
   switch (action.type) {
     case 'select':
       return { ...state, answers: { ...state.answers, [action.id]: action.answer } }
-    case 'submit':
-      return { ...state, results: { ...state.results, [action.id]: action.result } }
-    case 'reveal':
-      return { ...state, revealed: { ...state.revealed, [action.id]: true } }
+    case 'confirmSubjective':
+      return { ...state, subjectiveDone: { ...state.subjectiveDone, [action.id]: action.done } }
     case 'assess':
       return { ...state, results: { ...state.results, [action.id]: action.mastered } }
     case 'next':
@@ -76,23 +112,19 @@ function reducer(state: ExamState, action: Action): ExamState {
     case 'tick':
       if (state.submitted) return state
       if (state.remainingSeconds <= 1) {
-        return { ...state, remainingSeconds: 0, submitted: true, autoSubmitted: true }
+        return {
+          ...state,
+          remainingSeconds: 0,
+          submitted: true,
+          autoSubmitted: true,
+          results: gradeSingles(state.paper, state.answers),
+        }
       }
       return { ...state, remainingSeconds: state.remainingSeconds - 1 }
     case 'submitExam':
-      return { ...state, submitted: true }
+      return { ...state, submitted: true, results: gradeSingles(state.paper, state.answers) }
     case 'restart':
-      return {
-        paper: action.paper,
-        questions: flattenPaper(action.paper),
-        index: 0,
-        answers: {},
-        results: {},
-        revealed: {},
-        remainingSeconds: action.remainingSeconds,
-        submitted: false,
-        autoSubmitted: false,
-      }
+      return freshExamState(action.paper, action.remainingSeconds)
     default:
       return state
   }
@@ -110,6 +142,11 @@ export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
     }
   }, [])
 
+  // 手动清除进度后，倒计时 tick 仍会触发持久化，用该标记阻止再次写入
+  const clearedRef = useRef(false)
+  // 成绩是否已保存（写入考试记录）
+  const savedRef = useRef(false)
+
   // 倒计时
   useEffect(() => {
     if (state.submitted) return
@@ -117,17 +154,54 @@ export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
     return () => clearInterval(timer)
   }, [state.submitted])
 
+  // 考试进度持久化：随作答/倒计时实时保存；交卷后清除，下次重新组卷
+  useEffect(() => {
+    if (clearedRef.current) return
+    if (state.submitted) {
+      clearExamSession()
+      return
+    }
+    saveExamSession({
+      singles: state.paper.singles.map((q) => q.id),
+      shorts: state.paper.shorts.map((q) => q.id),
+      essays: state.paper.essays.map((q) => q.id),
+      index: state.index,
+      answers: state.answers,
+      subjectiveDone: state.subjectiveDone,
+      remainingSeconds: state.remainingSeconds,
+    })
+  }, [state])
+
   const result: ExamResult | null = useMemo(() => {
     if (!state.submitted) return null
     return scoreExam(state.paper, state.results, config)
   }, [state.submitted, state.paper, state.results, config])
 
-  // 交卷后持久化一次
-  const persistedRef = useRef(false)
-  useEffect(() => {
-    if (!state.submitted || persistedRef.current) return
-    persistedRef.current = true
-    if (!result) return
+  const select = useCallback((id: string, answer: string | string[]) => {
+    ensureCheckIn()
+    dispatch({ type: 'select', id, answer })
+  }, [ensureCheckIn])
+
+  /** 主观题答题阶段「确认答完」/「取消确认」 */
+  const confirmSubjective = useCallback((id: string, done: boolean) => {
+    ensureCheckIn()
+    dispatch({ type: 'confirmSubjective', id, done })
+  }, [ensureCheckIn])
+
+  /** 主观题在成绩报告里自评「掌握/未掌握」 */
+  const assess = useCallback((id: string, mastered: boolean) => {
+    dispatch({ type: 'assess', id, mastered })
+  }, [])
+
+  const next = useCallback(() => dispatch({ type: 'next' }), [])
+  const prev = useCallback(() => dispatch({ type: 'prev' }), [])
+  const goto = useCallback((index: number) => dispatch({ type: 'goto', index }), [])
+  const submitExam = useCallback(() => dispatch({ type: 'submitExam' }), [])
+
+  /** 自评完成后保存成绩到考试记录（只保存一次） */
+  const saveResult = useCallback(() => {
+    if (savedRef.current || !result) return
+    savedRef.current = true
     const singleCorrect = state.paper.singles.filter((q) => state.results[q.id] === true).length
     const shortMastered = state.paper.shorts.filter((q) => state.results[q.id] === true).length
     const essayMastered = state.paper.essays.filter((q) => state.results[q.id] === true).length
@@ -142,36 +216,18 @@ export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
         `essay ${essayMastered}/${state.paper.essays.length}`,
       ],
     })
-  }, [state.submitted, state.paper, state.results, result])
-
-  const select = useCallback((id: string, answer: string | string[]) => {
-    dispatch({ type: 'select', id, answer })
-  }, [])
-
-  const submit = useCallback((id: string, answer: string | string[]): boolean => {
-    ensureCheckIn()
-    const q = questionRepository.getById(id)
-    const correct = q ? judgeObjective(q, answer) : false
-    dispatch({ type: 'submit', id, result: correct })
-    return correct
-  }, [ensureCheckIn])
-
-  const reveal = useCallback((id: string) => dispatch({ type: 'reveal', id }), [])
-
-  const assess = useCallback((id: string, mastered: boolean) => {
-    ensureCheckIn()
-    dispatch({ type: 'assess', id, mastered })
-  }, [ensureCheckIn])
-
-  const next = useCallback(() => dispatch({ type: 'next' }), [])
-  const prev = useCallback(() => dispatch({ type: 'prev' }), [])
-  const goto = useCallback((index: number) => dispatch({ type: 'goto', index }), [])
-  const submitExam = useCallback(() => dispatch({ type: 'submitExam' }), [])
+  }, [result, state.paper, state.results])
 
   const restart = useCallback(() => {
-    persistedRef.current = false
+    savedRef.current = false
+    clearedRef.current = false
     dispatch({ type: 'restart', paper: buildExamPaper(questionRepository, config), remainingSeconds: config.durationSeconds })
   }, [config])
+
+  const clearProgress = useCallback(() => {
+    clearedRef.current = true
+    clearExamSession()
+  }, [])
 
   const current = state.questions[state.index]
 
@@ -182,21 +238,22 @@ export function useExamSession(config: ExamConfig = DEFAULT_EXAM_CONFIG) {
     questions: state.questions,
     paper: state.paper,
     answers: state.answers,
+    subjectiveDone: state.subjectiveDone,
     results: state.results,
-    revealed: state.revealed,
     remainingSeconds: state.remainingSeconds,
     submitted: state.submitted,
     autoSubmitted: state.autoSubmitted,
     result,
     select,
-    submit,
-    reveal,
+    confirmSubjective,
     assess,
     next,
     prev,
     goto,
     submitExam,
+    saveResult,
     restart,
+    clearProgress,
   }
 }
 

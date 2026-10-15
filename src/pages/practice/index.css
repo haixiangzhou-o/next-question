@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+.practice-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.clear-exit {
+  flex: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 22px;
+  font-size: 24px;
+  border-radius: 999px;
+  color: #8a94a6;
+  background: #f3f4f6;
+}
+
 .progress-bar {
   height: 8px;
   background: #eef0f4;
